@@ -1,0 +1,75 @@
+name: Daily update and Pages
+on:
+  schedule:
+    - cron: '17 1 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/**', 'config/**', 'site/**', 'requirements.txt', '.github/workflows/update.yml']
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: research-pages
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Bootstrap source if needed
+        run: |
+          if [ ! -f scripts/update.py ] && [ -f source-bundle.zip ]; then
+            unzip -q source-bundle.zip -d /tmp/radar-bootstrap
+            rsync -a --exclude='.github' /tmp/radar-bootstrap/embodied-radar/ ./
+          fi
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - uses: actions/cache@v4
+        with:
+          path: .cache/evidence
+          key: evidence-v3-${{ github.run_id }}
+          restore-keys: evidence-v3-
+      - name: Fetch metadata and evidence
+        id: refresh
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          S2_API_KEY: ${{ secrets.S2_API_KEY }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+        run: python scripts/update.py --max-seconds 1200
+      - name: Rebuild exports from checkpoint
+        run: python scripts/update.py --offline
+      - name: Save source and snapshot
+        run: |
+          git config user.name "research-radar[bot]"
+          git config user.email "research-radar[bot]@users.noreply.github.com"
+          git add scripts config tests site docs README.md AGENTS.md requirements.txt .gitignore
+          if ! git diff --cached --quiet; then
+            git commit -m "data: daily research update"
+            git pull --rebase origin main
+            git push
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Report refresh outcome
+        if: steps.refresh.outcome == 'failure'
+        run: echo 'Metadata/evidence refresh had errors; retained checkpoint is published. Inspect source health.' >> "$GITHUB_STEP_SUMMARY"

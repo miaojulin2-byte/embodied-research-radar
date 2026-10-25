@@ -1,0 +1,90 @@
+name: Complete evidence backlog
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 */2 * * *'
+permissions:
+  contents: write
+  actions: write
+  pages: write
+  id-token: write
+concurrency:
+  group: research-pages
+  cancel-in-progress: false
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Check backlog
+        id: queue
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          x=json.load(open('site/data/dashboard.json'))
+          print('pending='+str(x.get('extraction_pipeline',{}).get('pending_papers',1)))
+          PY
+      - uses: actions/cache@v4
+        if: steps.queue.outputs.pending != '0'
+        with:
+          path: .cache/evidence
+          key: evidence-v3-${{ github.run_id }}
+          restore-keys: evidence-v3-
+      - name: Process backlog with checkpoint
+        if: steps.queue.outputs.pending != '0'
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+        run: python scripts/update.py --enrich-only --limit 2500 --max-seconds 1500
+      - name: Rebuild exports
+        if: steps.queue.outputs.pending != '0'
+        run: python scripts/update.py --offline
+      - name: Commit checkpoint
+        if: steps.queue.outputs.pending != '0'
+        run: |
+          git config user.name "research-radar[bot]"
+          git config user.email "research-radar[bot]@users.noreply.github.com"
+          git add site/data
+          if ! git diff --cached --quiet; then
+            git commit -m "data: complete evidence backlog batch"
+            git pull --rebase origin main
+            git push
+          fi
+      - uses: actions/configure-pages@v5
+        if: steps.queue.outputs.pending != '0'
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.queue.outputs.pending != '0'
+        with:
+          path: site
+      - uses: actions/deploy-pages@v4
+        if: steps.queue.outputs.pending != '0'
+        id: deployment
+      - name: Continue backlog when progress was made
+        if: steps.queue.outputs.pending != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          python - <<'PY' > /tmp/continue-backfill
+          import json
+          x=json.load(open('site/data/dashboard.json'))
+          rows=[r for r in x.get('sources',[]) if r['source'].startswith('evidence:')]
+          print('yes' if x['extraction_pipeline']['pending_papers']>0 and any(r['ok'] for r in rows) else 'no')
+          PY
+          if [ "$(cat /tmp/continue-backfill)" = yes ]; then
+            gh workflow run backfill.yml --ref main
+          fi
