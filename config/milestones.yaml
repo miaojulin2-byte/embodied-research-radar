@@ -1,0 +1,81 @@
+items:
+- id: arxiv:2212.06817
+  title: RT-1
+  published: '2022-12-13'
+  url: https://arxiv.org/abs/2212.06817
+  routes:
+  - R1
+  primary_route: R1
+  institution: Google Robotics
+  region: 海外
+  contribution: 将大规模真实机器人数据用于 Transformer 策略
+  verified: true
+  kind: 论文
+  evidence:
+  - paper
+- id: arxiv:2307.15818
+  title: RT-2
+  published: '2023-07-28'
+  url: https://arxiv.org/abs/2307.15818
+  routes:
+  - R1
+  - R5
+  primary_route: R1
+  institution: Google DeepMind
+  region: 海外
+  contribution: 将视觉语言模型迁移为动作 token 策略
+  verified: true
+  kind: 论文
+  evidence:
+  - paper
+- id: arxiv:2310.08864
+  title: Open X-Embodiment
+  published: '2023-10-13'
+  url: https://arxiv.org/abs/2310.08864
+  routes:
+  - R7
+  primary_route: R7
+  institution: 多机构协作
+  region: 国际合作
+  contribution: 汇集跨本体机器人数据与通用策略
+  verified: true
+  kind: 论文
+  evidence:
+  - paper
+- id: arxiv:2406.09246
+  title: OpenVLA
+  published: '2024-06-13'
+  url: https://arxiv.org/abs/2406.09246
+  routes:
+  - R1
+  primary_route: R1
+  institution: Stanford 等
+  region: 海外
+  contribution: 开放视觉语言动作模型及微调流程
+  verified: true
+  kind: 论文
+  evidence:
+  - paper
+  - code
+  - weights
+  github: openvla/openvla
+  data_scale: 970k真实演示
+  hardware: 跨本体机械臂
+  evaluation: 7B模型；不同实验协议不能跨论文混排
+  sources:
+  - https://github.com/openvla/openvla
+- id: arxiv:2410.24164
+  title: π0
+  published: '2024-10-31'
+  url: https://arxiv.org/abs/2410.24164
+  routes:
+  - R2
+  primary_route: R2
+  institution: Physical Intelligence
+  region: 海外
+  contribution: 以流匹配生成连续动作
+  verified: true
+  kind: 论文
+  evidence:
+  - paper
+  github: Physical-Intelligence/openpi

@@ -1,0 +1,96 @@
+- id: R1
+  name: 离散自回归 VLA
+  idea: 将动作离散为 token 并自回归预测
+  keywords:
+  - action token
+  - autoregressive
+  - openvla
+  - rt-2
+  bottleneck: 动作精度与推理延迟
+- id: R2
+  name: 扩散与流匹配 VLA
+  idea: 连续动作分布生成与动作分块
+  keywords:
+  - diffusion
+  - flow matching
+  - action expert
+  bottleneck: 多步采样与跨本体泛化
+- id: R3
+  name: 双系统与分层
+  idea: 慢速语义规划结合快速控制
+  keywords:
+  - dual system
+  - hierarchical
+  - system 2
+  bottleneck: 层间接口与误差累积
+- id: R4
+  name: 世界模型与视频预训练
+  idea: 预测环境演化并迁移到动作
+  keywords:
+  - world model
+  - world action
+  - video pretraining
+  - video generation
+  bottleneck: 物理一致性与动作可控性
+- id: R5
+  name: 具身推理 VLM
+  idea: 空间推理与任务规划
+  keywords:
+  - embodied reasoning
+  - spatial reasoning
+  - robobrain
+  bottleneck: 推理到执行的可靠性
+- id: R6
+  name: RL 后训练
+  idea: 用交互回报改进预训练策略
+  keywords:
+  - reinforcement learning
+  - rl fine-tuning
+  - self-improvement
+  bottleneck: 真实交互成本与奖励设计
+- id: R7
+  name: 数据引擎与仿真
+  idea: 跨本体采集与合成数据迁移
+  keywords:
+  - sim-to-real
+  - dataset
+  - teleoperation
+  - umi
+  - simulation
+  bottleneck: 数据质量与域差异
+- id: R8
+  name: 人形全身控制
+  idea: 协调行走与操作
+  keywords:
+  - humanoid
+  - whole-body
+  - loco-manipulation
+  bottleneck: 动态稳定与接触建模
+- id: R9
+  name: 灵巧操作与触觉
+  idea: 多指与触觉反馈操作
+  keywords:
+  - dexterous
+  - tactile
+  - in-hand
+  bottleneck: 接触感知与硬件可靠性
+- id: R10
+  name: 导航与移动操作
+  idea: 语言导航结合移动机器人操作
+  keywords:
+  - navigation
+  - mobile manipulation
+  - vln
+  bottleneck: 长时程定位与规划
+- id: R11
+  name: 评测基准
+  idea: 测量泛化与真实任务成功率
+  keywords:
+  - benchmark
+  - evaluation protocol
+  - offline metric
+  - policy evaluation
+  - success prediction
+  - failure prediction
+  - runtime monitor
+  bottleneck: 可比性与评测泄漏

@@ -1,0 +1,221 @@
+- name: 星海图 Galaxea
+  aliases:
+  - Galaxea
+  - Galaxea Dynamics
+  region: 国内
+- name: 智元 AgiBot
+  aliases:
+  - AgiBot
+  - Agibot
+  region: 国内
+- name: 银河通用
+  aliases:
+  - Galbot
+  - GALBOT
+  region: 国内
+- name: 自变量机器人
+  aliases:
+  - X Square Robot
+  - X Square Robotics
+  - X-Square Robot
+  region: 国内
+- name: 小鹏机器人
+  aliases:
+  - XPENG Robotics
+  - Xpeng Robotics
+  region: 国内
+- name: BAAI
+  aliases:
+  - Beijing Academy of Artificial Intelligence
+  - BAAI
+  region: 国内
+- name: 上海人工智能实验室
+  aliases:
+  - Shanghai AI Laboratory
+  - Shanghai Artificial Intelligence Laboratory
+  region: 国内
+- name: 清华大学
+  aliases:
+  - Tsinghua University
+  - THU
+  region: 国内
+- name: 北京大学
+  aliases:
+  - Peking University
+  - PKU
+  region: 国内
+- name: 上海交通大学
+  aliases:
+  - Shanghai Jiao Tong University
+  region: 国内
+- name: 浙江大学
+  aliases:
+  - Zhejiang University
+  region: 国内
+- name: 复旦大学
+  aliases:
+  - Fudan University
+  region: 国内
+- name: 中国科学技术大学
+  aliases:
+  - University of Science and Technology of China
+  region: 国内
+- name: 电子科技大学
+  aliases:
+  - University of Electronic Science and Technology of China
+  region: 国内
+- name: 哈尔滨工业大学
+  aliases:
+  - Harbin Institute of Technology
+  region: 国内
+- name: 中科院自动化所
+  aliases:
+  - Institute of Automation
+  - Chinese Academy of Sciences
+  region: 国内
+- name: 中科院计算所
+  aliases:
+  - Institute of Computing Technology
+  - Chinese Academy of Sciences
+  region: 国内
+- name: 中国科学院大学
+  aliases:
+  - University of Chinese Academy of Sciences
+  region: 国内
+- name: 香港中文大学
+  aliases:
+  - The Chinese University of Hong Kong
+  - Chinese University of Hong Kong
+  region: 国内
+- name: 香港科技大学
+  aliases:
+  - Hong Kong University of Science and Technology
+  - HKUST (GZ)
+  - HKUST
+  region: 国内
+- name: 香港大学
+  aliases:
+  - The University of Hong Kong
+  - University of Hong Kong
+  - MMLab@HKU
+  - HKU
+  region: 国内
+- name: 字节跳动
+  aliases:
+  - ByteDance
+  - Bytedance
+  region: 国内
+- name: 阿里巴巴
+  aliases:
+  - Alibaba Group
+  - Alibaba DAMO Academy
+  region: 国内
+- name: 腾讯
+  aliases:
+  - Tencent Robotics
+  - Tencent Robotics X
+  - Tencent
+  region: 国内
+- name: 华为
+  aliases:
+  - Huawei Technologies
+  - Huawei
+  region: 国内
+- name: 宇树科技
+  aliases:
+  - Unitree Robotics
+  region: 国内
+- name: 优必选
+  aliases:
+  - UBTECH
+  region: 国内
+- name: Google DeepMind
+  aliases:
+  - Google DeepMind
+  - DeepMind
+  region: 海外
+- name: Google
+  aliases:
+  - Google Research
+  - Google Robotics
+  region: 海外
+- name: Physical Intelligence
+  aliases:
+  - Physical Intelligence
+  region: 海外
+- name: NVIDIA
+  aliases:
+  - NVIDIA
+  region: 海外
+- name: Figure
+  aliases:
+  - Figure AI
+  - Figure Robotics
+  region: 海外
+- name: Meta FAIR
+  aliases:
+  - Meta FAIR
+  - FAIR at Meta
+  - Meta AI
+  region: 海外
+- name: Toyota Research Institute
+  aliases:
+  - Toyota Research Institute
+  region: 海外
+- name: Stanford
+  aliases:
+  - Stanford University
+  region: 海外
+- name: Berkeley
+  aliases:
+  - University of California Berkeley
+  - University of California at Berkeley
+  - UC Berkeley
+  region: 海外
+- name: CMU
+  aliases:
+  - Carnegie Mellon University
+  region: 海外
+- name: MIT
+  aliases:
+  - Massachusetts Institute of Technology
+  region: 海外
+- name: Georgia Tech
+  aliases:
+  - Georgia Institute of Technology
+  region: 海外
+- name: NUS
+  aliases:
+  - National University of Singapore
+  region: 海外
+- name: NTU
+  aliases:
+  - Nanyang Technological University
+  region: 海外
+- name: ETH Zurich
+  aliases:
+  - ETH Zurich
+  - ETH Zürich
+  region: 海外
+- name: Columbia
+  aliases:
+  - Columbia University
+  region: 海外
+- name: University of Washington
+  aliases:
+  - University of Washington
+  region: 海外
+- name: Allen Institute for AI
+  aliases:
+  - Allen Institute for AI
+  - Allen Institute for Artificial Intelligence
+  region: 海外
+- name: Xspark AI
+  aliases:
+  - Xspark AI
+  - XsparkAI
+  region: 待核验
+- name: Rice University
+  aliases:
+  - Rice University
+  region: 海外

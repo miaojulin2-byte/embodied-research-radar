@@ -1,0 +1,421 @@
+{
+  "generated_at": "2026-10-25T06:00:23+00:00",
+  "stats": {
+    "total": 2034,
+    "original_language_excerpts": 1999,
+    "processed_papers": 50,
+    "source_supported_institutions": 44,
+    "classification_review": 942,
+    "human_verified": 34,
+    "pending_papers": 1965,
+    "llm_live_tested": false,
+    "tests_passed": 26
+  },
+  "scope": "自动结果不是人工核验；正文处理不代表全部字段齐全",
+  "sample_ids": [
+    "arxiv:2610.31670",
+    "arxiv:2610.22342"
+  ],
+  "last_source_results": [
+    {
+      "source": "evidence:arxiv:2610.31166",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:53:25+00:00",
+      "document_count": 2,
+      "llm_used": false,
+      "fields_supported": 4
+    },
+    {
+      "source": "evidence:arxiv:2610.31095",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:53:26+00:00",
+      "document_count": 1,
+      "llm_used": false,
+      "fields_supported": 4
+    },
+    {
+      "source": "evidence:arxiv:2610.30991",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:53:31+00:00",
+      "document_count": 1,
+      "llm_used": false,
+      "fields_supported": 5
+    },
+    {
+      "source": "evidence:arxiv:2610.30781",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:53:32+00:00",
+      "document_count": 2,
+      "llm_used": false,
+      "fields_supported": 4
+    },
+    {
+      "source": "evidence:arxiv:2610.30735",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:53:36+00:00",
+      "document_count": 1,
+      "llm_used": false,
+      "fields_supported": 4
+    },
+    {
+      "source": "evidence:arxiv:2610.30320",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:53:38+00:00",
+      "document_count": 2,
+      "llm_used": false,
+      "fields_supported": 4
+    },
+    {
+      "source": "evidence:arxiv:2610.30136",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:53:54+00:00",
+      "document_count": 2,
+      "llm_used": false,
+      "fields_supported": 5
+    },
+    {
+      "source": "evidence:arxiv:2610.30117",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:54:19+00:00",
+      "document_count": 2,
+      "llm_used": false,
+      "fields_supported": 3
+    },
+    {
+      "source": "evidence:arxiv:2610.30097",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:54:20+00:00",
+      "document_count": 1,
+      "llm_used": false,
+      "fields_supported": 4
+    },
+    {
+      "source": "evidence:arxiv:2610.30044",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:54:34+00:00",
+      "document_count": 2,
+      "llm_used": false,
+      "fields_supported": 4
+    },
+    {
+      "source": "evidence:arxiv:2610.29915",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:54:36+00:00",
+      "document_count": 2,
+      "llm_used": false,
+      "fields_supported": 4
+    },
+    {
+      "source": "evidence:arxiv:2610.29677",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:54:41+00:00",
+      "document_count": 2,
+      "llm_used": false,
+      "fields_supported": 2
+    },
+    {
+      "source": "evidence:arxiv:2610.29452",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:55:08+00:00",
+      "document_count": 1,
+      "llm_used": false,
+      "fields_supported": 2
+    },
+    {
+      "source": "evidence:arxiv:2610.29282",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:55:42+00:00",
+      "document_count": 2,
+      "llm_used": false,
+      "fields_supported": 6
+    },
+    {
+      "source": "evidence:arxiv:2610.29200",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:55:51+00:00",
+      "document_count": 1,
+      "llm_used": false,
+      "fields_supported": 2
+    },
+    {
+      "source": "evidence:arxiv:2610.29168",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:56:17+00:00",
+      "document_count": 1,
+      "llm_used": false,
+      "fields_supported": 3
+    },
+    {
+      "source": "evidence:arxiv:2610.28432",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:56:17+00:00",
+      "document_count": 1,
+      "llm_used": false,
+      "fields_supported": 3
+    },
+    {
+      "source": "evidence:arxiv:2610.28948",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:56:21+00:00",
+      "document_count": 2,
+      "llm_used": false,
+      "fields_supported": 6
+    },
+    {
+      "source": "evidence:arxiv:2610.28849",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:56:25+00:00",
+      "document_count": 1,
+      "llm_used": false,
+      "fields_supported": 4
+    },
+    {
+      "source": "evidence:arxiv:2610.28626",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:56:28+00:00",
+      "document_count": 2,
+      "llm_used": false,
+      "fields_supported": 5
+    },
+    {
+      "source": "evidence:arxiv:2610.28480",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:56:33+00:00",
+      "document_count": 2,
+      "llm_used": false,
+      "fields_supported": 4
+    },
+    {
+      "source": "evidence:arxiv:2610.28470",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:56:41+00:00",
+      "document_count": 2,
+      "llm_used": false,
+      "fields_supported": 3
+    },
+    {
+      "source": "evidence:arxiv:2610.28431",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:56:42+00:00",
+      "document_count": 2,
+      "llm_used": false,
+      "fields_supported": 4
+    },
+    {
+      "source": "evidence:arxiv:2610.25600",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:56:46+00:00",
+      "document_count": 1,
+      "llm_used": false,
+      "fields_supported": 5
+    },
+    {
+      "source": "evidence:arxiv:2610.27242",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:56:48+00:00",
+      "document_count": 2,
+      "llm_used": false,
+      "fields_supported": 4
+    },
+    {
+      "source": "evidence:arxiv:2610.27194",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:56:52+00:00",
+      "document_count": 2,
+      "llm_used": false,
+      "fields_supported": 4
+    },
+    {
+      "source": "evidence:arxiv:2610.26855",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:56:56+00:00",
+      "document_count": 2,
+      "llm_used": false,
+      "fields_supported": 5
+    },
+    {
+      "source": "evidence:arxiv:2610.26813",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:56:59+00:00",
+      "document_count": 1,
+      "llm_used": false,
+      "fields_supported": 4
+    },
+    {
+      "source": "evidence:arxiv:2610.26765",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:57:01+00:00",
+      "document_count": 1,
+      "llm_used": false,
+      "fields_supported": 4
+    },
+    {
+      "source": "evidence:arxiv:2610.26584",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:57:05+00:00",
+      "document_count": 2,
+      "llm_used": false,
+      "fields_supported": 4
+    },
+    {
+      "source": "evidence:arxiv:2610.26564",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:57:31+00:00",
+      "document_count": 3,
+      "llm_used": false,
+      "fields_supported": 5
+    },
+    {
+      "source": "evidence:arxiv:2610.25763",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:57:43+00:00",
+      "document_count": 1,
+      "llm_used": false,
+      "fields_supported": 4
+    },
+    {
+      "source": "evidence:arxiv:2610.25701",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:57:43+00:00",
+      "document_count": 2,
+      "llm_used": false,
+      "fields_supported": 3
+    },
+    {
+      "source": "evidence:arxiv:2610.25690",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:57:49+00:00",
+      "document_count": 2,
+      "llm_used": false,
+      "fields_supported": 4
+    },
+    {
+      "source": "evidence:arxiv:2610.25534",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:57:51+00:00",
+      "document_count": 1,
+      "llm_used": false,
+      "fields_supported": 3
+    },
+    {
+      "source": "evidence:arxiv:2610.25459",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:57:53+00:00",
+      "document_count": 2,
+      "llm_used": false,
+      "fields_supported": 4
+    },
+    {
+      "source": "evidence:arxiv:2610.25288",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:57:57+00:00",
+      "document_count": 1,
+      "llm_used": false,
+      "fields_supported": 4
+    },
+    {
+      "source": "evidence:arxiv:2610.24675",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:58:00+00:00",
+      "document_count": 2,
+      "llm_used": false,
+      "fields_supported": 5
+    },
+    {
+      "source": "evidence:arxiv:2610.24436",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:58:03+00:00",
+      "document_count": 1,
+      "llm_used": false,
+      "fields_supported": 3
+    },
+    {
+      "source": "evidence:arxiv:2610.24392",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:58:06+00:00",
+      "document_count": 1,
+      "llm_used": false,
+      "fields_supported": 3
+    },
+    {
+      "source": "evidence:arxiv:2610.22342",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:58:09+00:00",
+      "document_count": 2,
+      "llm_used": false,
+      "fields_supported": 3
+    },
+    {
+      "source": "evidence:arxiv:2610.31670",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:58:32+00:00",
+      "document_count": 2,
+      "llm_used": false,
+      "fields_supported": 4
+    },
+    {
+      "source": "evidence:arxiv:2610.24573",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:58:34+00:00",
+      "document_count": 2,
+      "llm_used": false,
+      "fields_supported": 2
+    },
+    {
+      "source": "evidence:arxiv:2610.23378",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:58:44+00:00",
+      "document_count": 1,
+      "llm_used": false,
+      "fields_supported": 4
+    },
+    {
+      "source": "evidence:arxiv:2610.31613",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:58:53+00:00",
+      "document_count": 1,
+      "llm_used": false,
+      "fields_supported": 2
+    },
+    {
+      "source": "evidence:arxiv:2610.31569",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:58:53+00:00",
+      "document_count": 3,
+      "llm_used": false,
+      "fields_supported": 4
+    },
+    {
+      "source": "evidence:arxiv:2610.25407",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:59:09+00:00",
+      "document_count": 1,
+      "llm_used": false,
+      "fields_supported": 3
+    },
+    {
+      "source": "evidence:arxiv:2602.12628",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:59:10+00:00",
+      "document_count": 1,
+      "llm_used": false,
+      "fields_supported": 3
+    },
+    {
+      "source": "evidence:arxiv:2609.05588",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:59:14+00:00",
+      "document_count": 2,
+      "llm_used": false,
+      "fields_supported": 7
+    },
+    {
+      "source": "evidence:arxiv:2608.11739",
+      "ok": true,
+      "attempted_at": "2026-10-25T05:59:18+00:00",
+      "document_count": 1,
+      "llm_used": false,
+      "fields_supported": 7
+    }
+  ]
+}

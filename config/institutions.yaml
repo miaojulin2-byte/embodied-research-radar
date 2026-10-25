@@ -1,0 +1,3 @@
+domestic: [智元机器人, 银河通用, 自变量机器人, 星海图, 宇树科技, 优必选, 阿里达摩院, 字节Seed, 腾讯Robotics X, 华为, BAAI, 上海人工智能实验室, 清华大学, 北京大学, 上海交通大学, 浙江大学, 中科院自动化所]
+overseas: [Google DeepMind, Physical Intelligence, NVIDIA, Figure, Tesla Optimus, 1X, Meta FAIR, Toyota Research Institute, Stanford, Berkeley, CMU, MIT]
+# 追踪名单不是论文机构归属证据。自动抓取不根据作者姓名推断国别。

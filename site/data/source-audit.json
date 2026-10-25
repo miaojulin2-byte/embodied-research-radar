@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-10-25",
+  "method": "主Agent用一手网页读取复核首发日期与标题；不代表独立复现指标或机构全量审计",
+  "checks": [
+    {
+      "url": "https://arxiv.org/abs/2608.11739",
+      "first_publication": "2026-08-12",
+      "title": "G0.5: One Autoregressive Stream for Robot Reasoning and Action",
+      "result": "matched"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.05588",
+      "first_publication": "2026-09-04",
+      "title": "GE-Act 2.0: Pretraining and Scaling a World-Action Model for Robotic Manipulation",
+      "result": "matched"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.27449",
+      "first_publication": "2026-09-23",
+      "title": "X2Real: an eXtensive simulation benchmark for real-world generalist policies",
+      "result": "matched"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.18239",
+      "first_publication": "2026-06-16",
+      "title": "EBench: Elemental Diagnosis of Generalist Mobile Manipulation Policies",
+      "result": "matched"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.17011",
+      "first_publication": "2026-06-15",
+      "title": "ROVE: Unlocking Human Interventions for Humanoid Manipulation via Reinforcement Learning",
+      "result": "matched"
+    }
+  ]
+}

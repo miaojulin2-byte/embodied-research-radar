@@ -1,0 +1,60 @@
+arxiv:
+  categories:
+  - cs.RO
+  - cs.AI
+  - cs.CV
+  - cs.LG
+  keywords:
+  - vision-language-action
+  - VLA
+  - embodied foundation model
+  - robot foundation model
+  - world model robot
+  - world action model
+  - humanoid whole-body control
+  - dexterous manipulation
+  - sim-to-real
+  - robot learning
+  - RL fine-tuning
+  page_size: 100
+  max_pages: 40
+  initial_days: 183
+  overlap_days: 7
+  delay_seconds: 3.2
+semantic_scholar:
+  enabled: true
+  max_per_run: 25
+github:
+  repositories:
+  - openvla/openvla
+  - Physical-Intelligence/openpi
+  - NVIDIA/Isaac-GR00T
+huggingface:
+  authors:
+  - openvla
+  - Physical-Intelligence
+  - nvidia
+  limit: 30
+rss:
+- name: NVIDIA
+  url: https://blogs.nvidia.com/feed/
+  keywords:
+  - robot
+  - embodied
+  - cosmos
+  - groot
+  - physical
+llm:
+  enabled: true
+  review_threshold: 0.8
+  max_per_run: 30
+extraction:
+  enabled: true
+  max_per_run: 40
+  max_linked_pages: 2
+  pdf_max_pages: 12
+  max_bytes: 20000000
+  cache_days: 7
+  refresh_days: 14
+  use_llm: true
+  max_source_chars: 26000

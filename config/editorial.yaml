@@ -1,0 +1,9 @@
+# 人工编辑的本期精选；每日抓取不会自动编造推荐理由。
+edition_date: '2026-10-25'
+reference: https://github.com/KKKKhazix/AIHOT
+picks:
+  - {id: 'arxiv:2608.11739', reason: '自回归推理与动作统一，构成“流匹配已完全取代离散动作”的直接反例。'}
+  - {id: 'arxiv:2609.05588', reason: '从操作数据训练世界动作模型组件，探索视频生成路线以外的 WAM 扩展方式。'}
+  - {id: 'https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization', reason: '关注未见家庭的全身任务泛化；官方消融提供了比演示视频更可检查的证据。'}
+  - {id: 'https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/', reason: '全身控制、灵巧手与多机器人协作进入同一模型体系，仍需关注可访问性。'}
+  - {id: 'arxiv:2609.27449', reason: '评测开始检验仿真分数是否能预测实机表现，影响后续模型比较的可信度。'}

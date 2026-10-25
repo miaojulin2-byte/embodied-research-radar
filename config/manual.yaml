@@ -1,0 +1,571 @@
+# 一手来源核验快照，2026-10-25；verified 仅表示已核验所填字段，未披露字段保持未知。
+items:
+- title: G0.5
+  published: '2026-08-12'
+  url: https://arxiv.org/abs/2608.11739
+  routes:
+  - R1
+  - R5
+  - R10
+  primary_route: R1
+  institution: 星海图 Galaxea
+  region: 国内
+  contribution: 统一自回归流输出推理与动作 token
+  hardware: R1-Lite / R1-Pro
+  data_scale: 机器人数据与VQA混合，规模未核验
+  evaluation: 作者同协议：真实微调76.7%；LIBERO98.9%
+  evidence:
+  - paper
+  kind: 论文
+  verified: true
+  sources:
+  - https://opengalaxea.github.io/G05/
+- title: GE-Act 2.0
+  published: '2026-09-04'
+  url: https://arxiv.org/abs/2609.05588
+  routes:
+  - R4
+  - R7
+  primary_route: R4
+  institution: 智元 AgiBot
+  region: 国内
+  contribution: 控制导向压缩、单步视觉规划与逆动力学联合训练
+  hardware: G1-OP / G2-90D
+  data_scale: 300→30000小时
+  evaluation: 作者报告100任务/20技能组；G1-OP17.1→44.1%
+  evidence:
+  - paper
+  - report
+  kind: 技术报告
+  verified: true
+  updated: '2026-10-09'
+  sources:
+  - https://ge-act-v2.github.io/
+- title: X2Real
+  published: '2026-09-23'
+  url: https://arxiv.org/abs/2609.27449
+  routes:
+  - R11
+  - R7
+  primary_route: R11
+  institution: 自变量机器人
+  region: 国内
+  contribution: 校准仿真与实机并隔离训练评测流程
+  hardware: Isaac Lab-Arena / 操作机器人
+  data_scale: 近300小时仿真轨迹
+  evaluation: 44任务、10维能力；仿真/实机分数相关0.84
+  evidence:
+  - paper
+  kind: 论文
+  verified: true
+  updated: '2026-10-13'
+- title: EBench
+  published: '2026-06-16'
+  url: https://arxiv.org/abs/2606.18239
+  routes:
+  - R11
+  - R10
+  primary_route: R11
+  institution: 上海人工智能实验室等
+  region: 国内
+  contribution: 用能力与泛化维度诊断移动操作策略
+  hardware: 仿真移动操作
+  data_scale: 26任务
+  evaluation: 5能力维度、4泛化维度；不同模型优势互补
+  evidence:
+  - paper
+  kind: 论文
+  verified: true
+  updated: '2026-09-10'
+- title: ZETA
+  published: '2026-09-02'
+  url: https://arxiv.org/abs/2609.02546
+  routes:
+  - R11
+  - R7
+  primary_route: R11
+  institution: 银河通用 / 北京大学
+  region: 国内
+  contribution: 区分严格未见本体与预训练已见本体
+  hardware: 14个留出本体
+  data_scale: 跨本体预训练评测
+  evaluation: 作者：加入5%目标本体预训练数据进度+13.4pp
+  evidence:
+  - paper
+  kind: 论文
+  verified: true
+  updated: '2026-10-11'
+- title: Labimus
+  published: '2026-06-30'
+  url: https://arxiv.org/abs/2606.31037
+  routes:
+  - R9
+  - R11
+  primary_route: R9
+  institution: 中国科学技术大学 / 北京人形机器人创新中心等
+  region: 国内
+  contribution: 化学实验操作评估同时检查完成度与精度
+  hardware: 人形灵巧操作仿真
+  data_scale: 30+实验室资产
+  evaluation: 6原子操作/7步称量；成功完成仍可能精度不达标
+  evidence:
+  - paper
+  kind: 论文
+  verified: true
+  updated: '2026-07-01'
+  sources:
+  - https://labimus.github.io/
+- title: DexJoCo-X
+  published: '2026-10-02'
+  url: https://arxiv.org/abs/2610.03278
+  routes:
+  - R9
+  - R11
+  primary_route: R9
+  institution: 电子科技大学等
+  region: 国内
+  contribution: 统一多手协议隔离动作表示与架构影响
+  hardware: 7种灵巧手
+  data_scale: 6任务 / 2100平衡演示
+  evaluation: 作者同架构：功能槽47.7%；原生47.0%；DexLatent33.1%
+  evidence:
+  - paper
+  kind: 论文
+  verified: true
+  updated: '2026-10-12'
+- title: Spark-0
+  published: '2026-10-15'
+  url: https://arxiv.org/abs/2610.22342
+  routes:
+  - R9
+  - R7
+  primary_route: R9
+  institution: 待核验
+  region: 待核验
+  contribution: 以人类触觉数据辅助机器人触觉迁移
+  hardware: 触觉机器人
+  data_scale: HumanTouch 1000小时
+  evaluation: 作者报告真机触觉44→52%；机构与开放状态待核验
+  evidence:
+  - paper
+  kind: 论文
+  verified: false
+- title: ViLoMan
+  published: '2026-09-16'
+  url: https://arxiv.org/abs/2609.19340
+  routes:
+  - R8
+  - R10
+  primary_route: R8
+  institution: 中科院计算所 / 国科大 / BAAI
+  region: 国内
+  contribution: 深度与本体观测直接生成全身关节动作
+  hardware: Unitree G1
+  data_scale: 未披露
+  evaluation: 关门仿真及实机；不填未核验数值
+  evidence:
+  - paper
+  kind: 论文
+  verified: true
+- title: PGMT
+  published: '2026-09-08'
+  url: https://arxiv.org/abs/2609.08511
+  routes:
+  - R8
+  - R7
+  primary_route: R8
+  institution: 浙江大学 / MirrorMe / NUS
+  region: 国际合作
+  contribution: 把地形感知纳入通用运动跟踪
+  hardware: Unitree G1
+  data_scale: 未核验
+  evaluation: 作者报告实机zero-shot，障碍最高37cm
+  evidence:
+  - paper
+  kind: 论文
+  verified: true
+  updated: '2026-09-09'
+- title: ROVE
+  published: '2026-06-15'
+  url: https://arxiv.org/abs/2606.17011
+  routes:
+  - R6
+  - R8
+  - R9
+  primary_route: R6
+  institution: 小鹏机器人 / 复旦 / 港中文 / 上海交大等
+  region: 国内
+  contribution: 从不完美人工干预与人类视频学习价值
+  hardware: 人形灵巧操作
+  data_scale: 真实回放+人工干预+人类视频
+  evaluation: 迭代改进接触丰富任务，非商用部署证据
+  evidence:
+  - paper
+  kind: 论文
+  verified: true
+  updated: '2026-10-02'
+  sources:
+  - https://xpeng-robotics.github.io/rove
+- title: RLinf-VLA
+  published: '2025-10-08'
+  url: https://arxiv.org/abs/2510.06710
+  routes:
+  - R6
+  - R7
+  primary_route: R6
+  institution: 清华 / 北大 / Berkeley / 中科院自动化所等
+  region: 国际合作
+  contribution: 统一VLA强化学习与并行仿真训练接口
+  hardware: LIBERO / ManiSkill / RoboTwin
+  data_scale: 130 LIBERO任务等
+  evaluation: 作者同协议LIBERO98.11%；训练速度1.61–1.88×
+  evidence:
+  - paper
+  - code
+  kind: 论文
+  verified: true
+  github: RLinf/RLinf
+  updated: '2026-08-12'
+  sources:
+  - https://github.com/RLinf/RLinf
+- title: RL-Co
+  published: '2026-02-13'
+  url: https://arxiv.org/abs/2602.12628
+  routes:
+  - R6
+  - R7
+  primary_route: R6
+  institution: 待核验
+  region: 待核验
+  contribution: 仿真RL结合真实监督锚定
+  hardware: 4类真实桌面任务
+  data_scale: 未核验
+  evaluation: 摘要称OpenVLA+24%、π0.5+20%；未转为pp
+  evidence:
+  - paper
+  kind: 论文
+  verified: false
+  updated: '2026-10-22'
+- title: Pi API beta
+  published: '2026-10-13'
+  url: https://www.pi.website/blog/api-beta
+  routes:
+  - R2
+  - R7
+  primary_route: R2
+  institution: Physical Intelligence
+  region: 海外
+  contribution: 提供上传数据、托管微调与网关推理
+  hardware: 双臂、工业等多本体
+  data_scale: 未披露
+  evaluation: 官方展示多行业早期应用；不是统一benchmark
+  evidence:
+  - demo
+  - deployment
+  kind: 产品 beta
+  verified: true
+- title: Helix 2.5
+  published: '2026-09-17'
+  url: https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization
+  routes:
+  - R3
+  - R7
+  - R8
+  - R10
+  primary_route: R3
+  institution: Figure
+  region: 海外
+  contribution: 人类视频预训练迁移到未见家庭全身操作
+  hardware: Figure 人形
+  data_scale: Index；任务专用数据未核验
+  evaluation: 30未见家庭/3行为；官方消融9→56%，非第三方
+  evidence:
+  - report
+  - demo
+  kind: 官方技术长文
+  verified: true
+- title: Index
+  published: '2026-08-25'
+  url: https://www.figure.ai/news/introducing-index
+  routes:
+  - R7
+  primary_route: R7
+  institution: Figure
+  region: 海外
+  contribution: 规模化人类视频采集引擎
+  hardware: 人类第一视角视频
+  data_scale: 官方16M+视频、108国
+  evaluation: 数据规模不是机器人任务成功率
+  evidence:
+  - report
+  kind: 数据平台介绍
+  verified: true
+- title: Gemini Robotics 2
+  published: '2026-07-30'
+  url: https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/
+  routes:
+  - R3
+  - R8
+  - R9
+  - R10
+  primary_route: R3
+  institution: Google DeepMind
+  region: 海外
+  contribution: 扩展全身控制、灵巧操作与多机器人协作
+  hardware: Apollo 2 / Franka Duo等
+  data_scale: 未披露
+  evaluation: 官方演示；VLA面向early-access合作方
+  evidence:
+  - report
+  - demo
+  kind: 模型发布
+  verified: true
+- title: Gemini Robotics ER 2
+  published: '2026-07-30'
+  url: https://deepmind.google/models/gemini-robotics/embodied-reasoning/
+  routes:
+  - R5
+  - R3
+  primary_route: R5
+  institution: Google DeepMind
+  region: 海外
+  contribution: 空间推理与长时任务规划协调执行
+  hardware: 高层推理接口
+  data_scale: 未披露
+  evaluation: AI Studio及企业私预览；权重未核验
+  evidence:
+  - report
+  kind: 模型服务
+  verified: true
+  sources:
+  - https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/
+- title: Gemini Robotics On-Device 2
+  published: '2026-07-30'
+  url: https://deepmind.google/models/model-cards/gemini-robotics-on-device-2/
+  routes:
+  - R3
+  primary_route: R3
+  institution: Google DeepMind
+  region: 海外
+  contribution: 本地VLA接收图像语言及状态输出动作
+  hardware: 多本体本地推理
+  data_scale: 未披露
+  evaluation: Trusted Testers，非公开权重
+  evidence:
+  - report
+  kind: 模型卡
+  verified: true
+- title: 1X World Model Lab
+  published: '2026-06-04'
+  url: https://www.1x.tech/discover/1x-world-model-lab
+  routes:
+  - R4
+  - R7
+  - R6
+  primary_route: R4
+  institution: 1X
+  region: 海外
+  contribution: 研究计划聚焦多来源数据与世界模型
+  hardware: NEO研究体系
+  data_scale: 未披露
+  evaluation: 机构计划公告；不是新模型评测
+  evidence:
+  - report
+  kind: 研究计划公告
+  verified: true
+- title: π0.7
+  published: '2026-04-16'
+  url: https://www.pi.website/blog/pi07
+  routes:
+  - R2
+  primary_route: R2
+  institution: Physical Intelligence
+  region: 海外
+  contribution: 语言和视觉子目标引导技能组合
+  hardware: 多机器人
+  data_scale: 未核验
+  evaluation: 首发早于近六月窗口9天
+  evidence:
+  - report
+  - demo
+  kind: 官方技术介绍
+  verified: true
+- title: RLT / RL Token
+  published: '2026-03-19'
+  url: https://www.pi.website/research/rlt
+  routes:
+  - R6
+  - R9
+  primary_route: R6
+  institution: Physical Intelligence
+  region: 海外
+  contribution: 紧凑RL token连接VLA与小型actor critic
+  hardware: 精准操作
+  data_scale: 4类任务
+  evaluation: 官方精准阶段最多提速3倍；窗口外历史参照
+  evidence:
+  - report
+  kind: 研究介绍
+  verified: true
+- title: MEM
+  published: '2026-03-03'
+  url: https://www.pi.website/research/memory
+  routes:
+  - R3
+  primary_route: R3
+  institution: Physical Intelligence
+  region: 海外
+  contribution: 多尺度记忆支持长时序任务
+  hardware: 长时机器人操作
+  data_scale: 未核验
+  evaluation: 官方展示10分钟以上任务；窗口外
+  evidence:
+  - report
+  - demo
+  kind: 研究介绍
+  verified: true
+- title: DreamZero
+  published: '2026-02-17'
+  url: https://arxiv.org/abs/2602.15922
+  routes:
+  - R4
+  - R2
+  primary_route: R4
+  institution: NVIDIA等
+  region: 海外
+  contribution: 视频扩散世界动作模型联合预测视频与动作
+  hardware: 跨本体机器人
+  data_scale: 14B模型；数据规模未核验
+  evaluation: 作者报告7Hz闭环；首发在窗口外
+  evidence:
+  - paper
+  kind: 论文
+  verified: true
+- title: MolmoSpaces
+  published: '2026-02-11'
+  url: https://arxiv.org/abs/2602.11337
+  routes:
+  - R7
+  - R10
+  - R11
+  primary_route: R7
+  institution: Allen Institute for AI等
+  region: 海外
+  contribution: 大规模可交互室内场景与移动操作基准
+  hardware: 室内仿真机器人
+  data_scale: 230k+环境 / 130k资产 / 42M抓取
+  evaluation: 8类基准任务；首发窗口外
+  evidence:
+  - paper
+  kind: 论文
+  verified: true
+- title: Helix 02
+  published: '2026-01-27'
+  url: https://www.figure.ai/news/helix-02
+  routes:
+  - R3
+  - R8
+  - R9
+  - R10
+  primary_route: R3
+  institution: Figure
+  region: 海外
+  contribution: 三级系统分开语义目标与平衡控制
+  hardware: Figure 人形
+  data_scale: S0：1000+小时人类运动等
+  evaluation: S1 200Hz / S0 1kHz；控制频率不是成功率
+  evidence:
+  - report
+  - demo
+  kind: 官方技术介绍
+  verified: true
+- title: 1XWM
+  published: '2026-01-12'
+  url: https://www.1x.tech/discover/world-model-self-learning
+  routes:
+  - R4
+  primary_route: R4
+  institution: 1X
+  region: 海外
+  contribution: 文字条件视频生成再经逆动力学输出动作
+  hardware: NEO
+  data_scale: 未披露
+  evaluation: 当时11秒生成5秒视频，IDM再1秒
+  evidence:
+  - report
+  - demo
+  kind: 官方技术介绍
+  verified: true
+- title: V-JEPA 2
+  published: '2025-06-11'
+  url: https://ai.meta.com/research/publications/v-jepa-2-self-supervised-video-models-enable-understanding-prediction-and-planning/
+  routes:
+  - R4
+  primary_route: R4
+  institution: Meta FAIR
+  region: 海外
+  contribution: 自监督视频表征经少量动作数据适配规划
+  hardware: Franka
+  data_scale: 100万+小时视频；动作后训<62小时
+  evaluation: 两实验室新环境规划；窗口外
+  evidence:
+  - paper
+  - code
+  - weights
+  kind: 论文
+  verified: true
+  sources:
+  - https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/
+- title: Helix
+  published: '2025-02-20'
+  url: https://www.figure.ai/news/helix
+  routes:
+  - R3
+  - R8
+  - R9
+  primary_route: R3
+  institution: Figure
+  region: 海外
+  contribution: 慢速VLM与快速动作策略联合训练
+  hardware: Figure 人形
+  data_scale: 未核验
+  evaluation: S2 7–9Hz / S1 200Hz；窗口外
+  evidence:
+  - report
+  - demo
+  kind: 官方技术介绍
+  verified: true
+- title: UMI
+  published: '2024-02-15'
+  url: https://arxiv.org/abs/2402.10329
+  routes:
+  - R7
+  primary_route: R7
+  institution: Stanford / Columbia等
+  region: 海外
+  contribution: 手持夹爪收集可迁移在野演示
+  hardware: 手持夹爪 / 机械臂
+  data_scale: 在野示教，规模未核验
+  evaluation: 跨硬件迁移；窗口外
+  evidence:
+  - paper
+  - code
+  kind: 论文
+  verified: true
+- title: RoboArena
+  published: '2025-06-22'
+  url: https://arxiv.org/abs/2506.18123
+  routes:
+  - R11
+  primary_route: R11
+  institution: 7所学术机构协作
+  region: 国际合作
+  contribution: 成对真实机器人实验聚合偏好评估
+  hardware: DROID
+  data_scale: 600+成对实验
+  evaluation: 双盲偏好比较；非任务统一成功率
+  evidence:
+  - paper
+  kind: 论文
+  verified: true
+  updated: '2025-11-29'
