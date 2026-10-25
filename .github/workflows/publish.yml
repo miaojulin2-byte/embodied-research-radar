@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['.github/workflows/publish.yml']
+    paths: ['.github/workflows/publish.yml', 'DEPLOYMENT.md']
 permissions:
   contents: read
   pages: write
@@ -25,15 +25,23 @@ jobs:
       - name: Locate static site
         id: source
         run: |
-          if [ -d site ]; then
-            echo 'directory=site' >> "$GITHUB_OUTPUT"
-          else
+          if [ ! -f scripts/update.py ] && [ -f source-bundle.zip ]; then
             unzip -q source-bundle.zip -d /tmp/radar-publish
-            echo 'directory=/tmp/radar-publish/embodied-radar/site' >> "$GITHUB_OUTPUT"
+            rsync -a --exclude='.github' /tmp/radar-publish/embodied-radar/ ./
           fi
+          echo 'directory=site' >> "$GITHUB_OUTPUT"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - name: Build small home and lazy evidence data
+        run: python scripts/update.py --offline
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ${{ steps.source.outputs.directory }}
       - uses: actions/deploy-pages@v4
         id: deployment
+

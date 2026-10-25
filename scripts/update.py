@@ -19,6 +19,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 import yaml
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from site_data import write_site_data
 from evidence import initialize, enrich_documents, extract_document, refresh_coverage, VERSION, replay_cached
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -349,6 +350,7 @@ def main():
     temporary.write_text(json.dumps(output, ensure_ascii=False, indent=2) + '\n')
     temporary.replace(path)
     export(output['items'])
+    write_site_data(output, DATA)
     failures = [s['source'] for s in status if not s['ok']]
     print(json.dumps({'items': len(items), 'mode': output['mode'], 'failures': failures}, ensure_ascii=False))
     if not args.offline and status and not any(s['ok'] for s in status):

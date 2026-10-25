@@ -42,7 +42,7 @@ git push -u origin main
 6. 默认每天 **Asia/Taipei 09:17**（UTC 01:17）运行。Actions 的 cron 可能延迟，长时间无活动的公共仓库可能停用定时工作流；不是精确计时或实时推送服务。随时可手动 Run workflow。
 7. 自动任务自己提交的数据不会触发新的 push 工作流；同一任务直接继续部署。修改 `config/manual.yaml` 等文件并 push 后也会重新抓取和部署。
 
-本次交付没有创建远端仓库、设置 Secrets 或启用用户账号下的 Pages；上述步骤完成后才会持续自动更新。
+已实际部署到 https://miaojulin2-byte.github.io/embodied-research-radar/ ，仓库为 https://github.com/miaojulin2-byte/embodied-research-radar 。Pages来源已设为GitHub Actions，首次更新与发布已成功；每日09:17（Asia/Taipei）更新。模型与S2的可选Secrets尚未配置。
 
 ## 可选 API 配置
 
@@ -172,7 +172,7 @@ python scripts/update.py --enrich-only --ids 2610.31670 2610.22342
 python scripts/update.py --offline
 ```
 
-`config/sources.yaml` 的 `extraction` 默认开启，每轮处理40篇。队列优先处理未提取、论文已修订或到期刷新条目；失败条目次日重试，`--ids` 可手动强制重试。HTML优先，无HTML或未提取到机构时读取PDF；PDF默认最多12页、20MB，可调整。第一期的约2000篇历史候选需要多轮补全，不会一次抓完所有全文。程序保留每篇处理进度，后续继续；Actions未启用前不会自行每天运行。
+`config/sources.yaml` 的 `extraction` 默认开启，每轮处理40篇。队列优先处理未提取、论文已修订或到期刷新条目；失败条目次日重试，`--ids` 可手动强制重试。HTML优先，无HTML或未提取到机构时读取PDF；PDF默认最多12页、20MB，可调整。第一期的约2000篇历史候选需要多轮补全，不会一次抓完所有全文。程序保留每篇处理进度，后续继续；当前仓库Actions已启用；历史队列由backfill.yml持续分批推进，纯本地副本仍须手动执行或使用已部署工作流。
 
 机构取自明确作者机构区域，参考文献和正文提及的机构不作为作者归属。映射外的明确机构保留原文，不猜地区。原文摘录保持原语言，不冒充中文翻译。模型未配置时仍可完整运行免费流程；配置模型后可获得中文摘要和更细的方法分类。原文摘录、规则推断、模型引文匹配均不是独立复现实验。
 
@@ -198,3 +198,15 @@ python scripts/update.py --offline
 前端可按人工核验、自动整理、分类需复核、正文已处理/待补全/失败筛选。自动提取到的机构会进入机构筛选；每张卡片展开“证据与数据”可逐字段检查来源。代码、权重检查单独展示，不混入模型分类置信度。
 
 验证包含26项检查：来源解析、明确机构区与参考文献隔离、地区映射、修订缓存失效、模型伪造引文拒绝、模型卡不足以证明权重开放，以及既有去重和增速基线检查。模型摘要端到端的真实调用仍需配置用户自己的模型服务后验证。
+
+## 已部署服务与持续补全
+
+- 站点：https://miaojulin2-byte.github.io/embodied-research-radar/
+- 仓库：https://github.com/miaojulin2-byte/embodied-research-radar
+- 每日更新：`Daily update and Pages`，Asia/Taipei 09:17。
+- 历史补全：`Complete evidence backlog`，每批最多25分钟，每5篇原子保存进度。仍有队列且本批有进展时自动派发下一批；每两小时的第47分钟另有重试巡检。无进展时停止自衔接，避免无限重跑无法获取的来源。
+- 即时发布：`Publish current snapshot`，只构建/发布现有数据，不依赖外部抓取接口。
+- GitHub Actions并发组保护数据提交；首次源码包只用于初始化，正常维护以仓库已展开的源码为准。
+- 首屏使用 `dashboard-home.json`；其他视图加载精简索引，展开卡片时按需读取 `data/items/`。完整 `dashboard.json` 与CSV仍可导出。
+
+初次上线时历史补全仍在运行，不把“任务已启动”写成“全部字段已补齐”。实际数量以线上数据和工作流日志为准；抓取失败和原文未提取到分别保留。
