@@ -1,0 +1,39 @@
+name: Publish current snapshot
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/publish.yml']
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: publish-snapshot
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Locate static site
+        id: source
+        run: |
+          if [ -d site ]; then
+            echo 'directory=site' >> "$GITHUB_OUTPUT"
+          else
+            unzip -q source-bundle.zip -d /tmp/radar-publish
+            echo 'directory=/tmp/radar-publish/embodied-radar/site' >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ steps.source.outputs.directory }}
+      - uses: actions/deploy-pages@v4
+        id: deployment
