@@ -1,6 +1,7 @@
 name: Daily update and Pages
 on:
   schedule:
+    # GitHub cron uses UTC: 01:17 UTC is 09:17 Asia/Taipei.
     - cron: '17 1 * * *'
   workflow_dispatch:
   push:
