@@ -53,7 +53,7 @@ extraction:
   max_per_run: 40
   max_linked_pages: 2
   pdf_max_pages: 12
-  max_bytes: 20000000
+  max_bytes: 100000000
   cache_days: 7
   refresh_days: 14
   use_llm: true

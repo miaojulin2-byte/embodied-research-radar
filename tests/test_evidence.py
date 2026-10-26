@@ -133,6 +133,21 @@ class EvidenceTests(unittest.TestCase):
         self.assertEqual(items[0]['extraction']['status'],'complete')
         self.assertNotIn('extraction',items[1])
 
+    def test_increased_size_budget_retries_failed_paper_same_day(self):
+        x=self.item()
+        x['extraction']={'version':e.VERSION,'paper_updated':x.get('updated'),'attempted_at':e.stamp(),'status':'failed','max_bytes':20000000}
+        doc={'url':x['url'],'text':'Robot policy study.','format':'html','fetched_at':e.stamp(),'affiliations':'','links':[]}
+        with tempfile.TemporaryDirectory() as tmp, patch.object(e.EvidenceReader,'paper',return_value=(doc,[])):
+            reports=e.enrich_documents([x],None,{'max_bytes':100000000,'use_llm':False},ORGS,tmp)
+        self.assertEqual(len(reports),1)
+        self.assertTrue(reports[0]['ok'])
+        self.assertEqual(x['extraction']['max_bytes'],100000000)
+
+    def test_paper_failure_preserves_underlying_size_limit(self):
+        with tempfile.TemporaryDirectory() as tmp, patch.object(e.EvidenceReader,'read',side_effect=ValueError('Source exceeds configured size limit')):
+            with self.assertRaisesRegex(ValueError,'Source exceeds configured size limit'):
+                e.EvidenceReader(None,tmp,{}).paper(self.item())
+
     def test_revision_invalidates_document_cache(self):
         class Fake:
             calls=0

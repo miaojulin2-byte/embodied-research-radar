@@ -300,7 +300,7 @@ class EvidenceReader:
             try:
                 return self.read(url, pdf, item.get('updated', '')), errors
             except Exception as e:
-                errors.append({'url': url, 'error': type(e).__name__ + (':' + str(e.code) if isinstance(e, urllib.error.HTTPError) else '')})
+                errors.append({'url': url, 'error': type(e).__name__ + (':' + str(e.code) if isinstance(e, urllib.error.HTTPError) else ':' + str(e)[:180])})
         raise ValueError('Paper HTML and PDF unavailable: ' + json.dumps(errors))
 
 
@@ -388,6 +388,8 @@ def enrich_documents(items, client, cfg, organizations, cache, only_ids=None, ch
     def priority(x):
         state = x.get('extraction', {})
         due = state.get('version') != VERSION or state.get('paper_updated') != x.get('updated') or (state.get('status') == 'failed' and state.get('attempted_at', '')[:10] < stamp()[:10])
+        if state.get('status') == 'failed' and state.get('max_bytes', 20000000) < cfg.get('max_bytes', 20000000):
+            due = True
         if cfg.get('use_llm', True) and os.getenv('LLM_API_KEY') and state.get('status') == 'complete' and not state.get('llm_used'):
             due = True
         if not due and state.get('status') == 'complete':
@@ -408,7 +410,7 @@ def enrich_documents(items, client, cfg, organizations, cache, only_ids=None, ch
                     item['field_evidence'][name] = field()
                     item[name] = '待核验'
         report = {'source': 'evidence:' + item['id'], 'ok': False, 'attempted_at': stamp()}
-        item['extraction'] = {'version': VERSION, 'paper_updated': item.get('updated'), 'attempted_at': stamp(), 'status': 'failed'}
+        item['extraction'] = {'version': VERSION, 'paper_updated': item.get('updated'), 'attempted_at': stamp(), 'status': 'failed', 'max_bytes': cfg.get('max_bytes', 20000000)}
         docs, errors = [], []
         try:
             doc, fallbacks = reader.paper(item)
