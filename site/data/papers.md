@@ -103,7 +103,7 @@
 | [Europe’s Industrial Leaders Reinvent Engineering and Manufacturing With NVIDIA](https://blogs.nvidia.com/blog/europe-industrial-leaders-engineering-manufacturing/) | 2026-10-21 |  | 待核验 | 分类需复核 |
 | [NVIDIA Open Models Advance Europe’s Sovereign Intelligence Across Industries](https://blogs.nvidia.com/blog/open-models-europe-industry/) | 2026-10-21 |  | 待核验 | 分类需复核 |
 | [GTC Berlin 2026: Live Updates From NVIDIA CEO Jensen Huang’s Keynote](https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/) | 2026-10-21 |  | 待核验 | 分类需复核 |
-| [AGQ: Action-Guided Ultra-Low-Bit Quantization for Vision-Language-Action Models](https://arxiv.org/abs/2610.33074) | 2026-10-21 |  | 待核验 | 分类需复核 |
+| [AGQ: Action-Guided Ultra-Low-Bit Quantization for Vision-Language-Action Models](https://arxiv.org/abs/2610.33074) | 2026-10-21 |  | 中科院自动化所 / 中科院计算所 / 1 School of Computer Science and Engineering, Southeast University, Nanjing, China / 2 School of Information Technology, Monash University, Subang Jaya, Malaysia / 3 Department of Electronic & Computer Engineering, Hong Kong University of Science & Technology, Hong Kong, China | 分类需复核 |
 | [AgenticRoboRL: Bringing Coding-Agent Post-Training to Agentic Robotics](https://arxiv.org/abs/2610.28589) | 2026-10-20 | R6 | University of Central Florida / University of Southern California | 分类需复核 |
 | [Physical AI for Intralogistics: Benchmarking the NVIDIA Sim-to-Real Ecosystem for Cosmos-Enhanced COMPASS Navigation on Industrial Mobile Robots](https://arxiv.org/abs/2610.28432) | 2026-10-20 | R7, R10, R8, R11 | NVIDIA / Idealworks | 自动整理 |
 | [Doob-Based Generative Policy Optimization](https://arxiv.org/abs/2610.28990) | 2026-10-20 | R6, R2 | 待核验 | 自动整理 |
