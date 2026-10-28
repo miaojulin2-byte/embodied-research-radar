@@ -1,5 +1,30 @@
 | 名称 | 日期 | 路线 | 机构 | 状态 |
 |---|---|---|---|---|
+| [ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning](https://arxiv.org/abs/2610.37666) | 2026-10-27 | R6, R7 | NVIDIA / KAIST | 自动整理 |
+| [Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well](https://arxiv.org/abs/2610.37652) | 2026-10-27 | R9, R7 | University of California, Berkeley. / University of California, Davis. | 自动整理 |
+| [Learning Visuomotor Quadrotor Flight Through Dynamic Narrow Gaps via Differentiable Simulation](https://arxiv.org/abs/2610.37557) | 2026-10-27 | R7 | Robotics and Perception Group, University of Zurich | 自动整理 |
+| [World Dreamer v5-lite: A Multi-Robot World Action Model with One Dreamer](https://arxiv.org/abs/2610.37518) | 2026-10-27 | R4 | 待核验 | 自动整理 |
+| [PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations](https://arxiv.org/abs/2610.37381) | 2026-10-27 | R4, R7 | 北京大学 | 自动整理 |
+| [VLA-Stem: A Lightweight Safety Mechanism for Vision-Language-Action Models via Reinforcement Learning](https://arxiv.org/abs/2610.37378) | 2026-10-27 | R6, R7 | 北京大学 / 中国科学技术大学 | 自动整理 |
+| [Tokens of Motion: Primitive Motion Learning for Human-Humanoid Skill Transfer](https://arxiv.org/abs/2610.37330) | 2026-10-27 |  | Purdue University, West Lafayette, IN, USA | 分类需复核 |
+| [Vision-Language-Action or World-Action? Just Action Models](https://arxiv.org/abs/2610.37219) | 2026-10-27 | R4, R2 | 待核验 | 自动整理 |
+| [Retrieve to Act: Motion Primitive Graph Retrieval for Robust VLA Execution](https://arxiv.org/abs/2610.37215) | 2026-10-27 | R7 | Center for AI Research, VinUniversity / VinRobotics / Hanoi University of Science and Technology / German Research Center for Artificial Intelligence (DFKI) / University of Oldenburg / University of Arkansas / Max Planck Research School for Intelligent Systems (IMPRS-IS) * Equal Contributors † Project Leads | 分类需复核 |
+| [How Much Can Best-of-N Help a World Action Model? Measuring Selectable Headroom and Realizing It in Closed Loop](https://arxiv.org/abs/2610.37196) | 2026-10-27 | R4 | 清华大学 / 北京大学 / 复旦大学 | 自动整理 |
+| [GAWM: A Compact Latent World-Action Model for Multi-Task Robot Manipulation](https://arxiv.org/abs/2610.37091) | 2026-10-27 | R4 | 待核验 | 自动整理 |
+| [Omni-IGN: Onboard Image-Goal Navigation for Drones with Omnidirectional Vision](https://arxiv.org/abs/2610.36968) | 2026-10-27 | R6, R10, R7 | 待核验 | 自动整理 |
+| [ActiveAlign: Aligning Egocentric Manipulation via Active Perception](https://arxiv.org/abs/2610.36859) | 2026-10-27 | R9, R7 | NVIDIA | 分类需复核 |
+| [When Black-Box Robot Policies Fail: Online Sensor Diagnosis and Repair with a Transparent Surrogate](https://arxiv.org/abs/2610.36852) | 2026-10-27 |  | Technical University of Munich | 分类需复核 |
+| [Trace-WAM: Learning to Act via 3D Motion Prediction for World Action Models](https://arxiv.org/abs/2610.36840) | 2026-10-27 | R4, R2 | 清华大学 / 中科院自动化所 / 中科院计算所 / 阿里巴巴 | 自动整理 |
+| [TAPESTRY: A Single Backbone for Video Generation and Robot Control](https://arxiv.org/abs/2610.36823) | 2026-10-27 | R4, R2, R1, R7 | 待核验 | 自动整理 |
+| [A fully articulated humanoid dexterous hand with human-level joint structure enabled by linkage-based actuation](https://arxiv.org/abs/2610.36789) | 2026-10-27 | R8, R9 | 浙江大学 | 自动整理 |
+| [Evaluation-Guided Demonstration Refinement for Vision-Language-Action Policies: The Winning Entry in the MetaFine Open Competition](https://arxiv.org/abs/2610.36765) | 2026-10-27 |  | 哈尔滨工业大学 / Southeast University The Hong Kong Polytechnic University | 分类需复核 |
+| [Making Self-Driving Laboratories Auditable:A Unified Framework for Hybrid Actions,Measurements, and Safe Execution](https://arxiv.org/abs/2610.36761) | 2026-10-27 | R11 | 上海交通大学 | 分类需复核 |
+| [RoboSTD: Zero-Shot Single-to-Dual Transfer via Sagittal Mirroring for Bimanual Learning](https://arxiv.org/abs/2610.36685) | 2026-10-27 | R7 | 待核验 | 分类需复核 |
+| [From Biological Curves to Soft Modular Robots: Learning-Based Inverse Design with Uncertainty-Guided Refinement](https://arxiv.org/abs/2610.36681) | 2026-10-27 |  | 待核验 | 分类需复核 |
+| [Adapting Video Models for Robot Control via Motion-guided Asymmetric Prediction](https://arxiv.org/abs/2610.36624) | 2026-10-27 | R4, R2, R11 | KAIST / RLWRLD | 自动整理 |
+| [CARD: Contact-Anchored Retargeting for Dexterous Manipulation](https://arxiv.org/abs/2610.36539) | 2026-10-27 | R9, R7 | Berkeley / CMU | 自动整理 |
+| [GRAFT: Geometry-Aware Residual Adaptation for Foundation Trackers](https://arxiv.org/abs/2610.36507) | 2026-10-27 | R8, R7 | 待核验 | 自动整理 |
+| [SO-101 Bench: Accessible Spatial Manipulation](https://arxiv.org/abs/2610.36420) | 2026-10-27 | R11, R4, R7 | Independent | 分类需复核 |
 | [OSWAM: An Effective World Action Model with One-Step Action Generation](https://arxiv.org/abs/2610.35850) | 2026-10-26 | R4, R2 | The Hong Kong Polytechnic University | 自动整理 |
 | [Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy](https://arxiv.org/abs/2610.35832) | 2026-10-26 | R4 | 上海人工智能实验室 / 上海交通大学 / 浙江大学 / 复旦大学 | 自动整理 |
 | [Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent](https://arxiv.org/abs/2610.35817) | 2026-10-26 | R7 | Luma AI | 自动整理 |
@@ -13,11 +38,13 @@
 | [JevVLA: Jev-Inspired Energy-Based Adaptation for Vision-Language-Action Policies](https://arxiv.org/abs/2610.35010) | 2026-10-26 | R11 | 浙江大学 / NUS / Cornell University / Universal Ubiquitous AI Co., Ltd. / Hangzhou DEEP Robotics Technology Co., Ltd. | 分类需复核 |
 | [Behavioural Quality Is Not Learning Utility: Objective Mismatch in Human Behaviour Models for Robot Learning](https://arxiv.org/abs/2610.34839) | 2026-10-26 | R6 | 待核验 | 自动整理 |
 | [Beyond Behaviour: A Stimulus-Response Safety Evaluation of Vision-Language-Action Models](https://arxiv.org/abs/2610.34837) | 2026-10-26 |  | Monash University, Australia | 分类需复核 |
-| [VLA-HWBench: Where the Time Goes When VLA Models Run on Edge Hardware](https://arxiv.org/abs/2610.34717) | 2026-10-26 | R2 | NUS | 分类需复核 |
+| [VLA-HWBench: Where the Time Goes When VLA Models Run on Edge Hardware](https://arxiv.org/abs/2610.34717) | 2026-10-26 | R11, R2 | NUS | 分类需复核 |
 | [Benchmarking Obstacle-Conditioned Safety in Household Robot Navigation](https://arxiv.org/abs/2610.34674) | 2026-10-26 | R10, R11 | Interdisciplinary Program in Artificial Intelligence, Seoul National University | 自动整理 |
 | [Dream to Assist: Intent-Conditioned World Models for Shared Vehicle Control](https://arxiv.org/abs/2610.34650) | 2026-10-26 | R6, R4 | Toyota Research Institute / MIT | 自动整理 |
 | [RobotAgentBench: Towards Open-world Robot Autonomy](https://arxiv.org/abs/2610.34649) | 2026-10-26 | R11, R4, R6 | 待核验 | 分类需复核 |
-| [What Does World Modeling Actually Improve in Robot Action Learning?](https://arxiv.org/abs/2610.34593) | 2026-10-25 | R4, R2 | 中科院自动化所 / 中科院计算所 / 中国科学院大学 / Beijing Geekplus Technology Co., Ltd. / School of Computer Science and Engineering, Central South University | 自动整理 |
+| [ASPEN: Adaptive Semantic Reasoning via Command Persistence Prediction for Efficient Navigation VLAs](https://arxiv.org/abs/2610.36285) | 2026-10-26 | R10 | University of Houston | 自动整理 |
+| [E0.5: From Reconstructive to Future-Predictive 3D Foundations for Robotic World-Action Modeling](https://arxiv.org/abs/2610.36011) | 2026-10-26 | R4 | 待核验 | 自动整理 |
+| [What Does World Modeling Actually Improve in Robot Action Learning?](https://arxiv.org/abs/2610.34593) | 2026-10-25 | R4, R2 | 中科院自动化所 / 中科院计算所 / 中国科学院大学 / Gengine / School of Computer Science and Engineering, Central South University | 自动整理 |
 | [TRIAGE: Efficient Vision-Language-Action Inference Needs Both Reuse and Pruning](https://arxiv.org/abs/2610.34519) | 2026-10-25 |  | CMU / Dept. of ECE, Seoul National University. {sooyoung7896, kyunghanlee}@snu.ac.kr | 分类需复核 |
 | [Scaling Dexterous Manipulation via Action Representation Pretraining](https://arxiv.org/abs/2610.34453) | 2026-10-25 | R9, R4, R11 | Huazhong University of Science and Technology | 自动整理 |
 | [AuRA: From Atoms to Bits through Autonomous Robot Interaction](https://arxiv.org/abs/2610.34452) | 2026-10-25 | R7 | University of Maryland, College Park / All Purpose AI | 分类需复核 |
