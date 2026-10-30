@@ -1,5 +1,36 @@
 | 名称 | 日期 | 路线 | 机构 | 状态 |
 |---|---|---|---|---|
+| [Gym-Anything for Robotics: Scaling physical simulations with digital agents](https://arxiv.org/abs/2610.40565) | 2026-10-29 | R7, R11 | CMU | 分类需复核 |
+| [BURGER: Benchmarking and Understanding Robotic Generalization via Embodied Drawing](https://arxiv.org/abs/2610.40532) | 2026-10-29 | R7, R11 | 清华大学 | 分类需复核 |
+| [Improving Fine-Grained Manipulation through Demonstration Expansion and Execution Design](https://arxiv.org/abs/2610.40430) | 2026-10-29 | R3 | Nanjing University | 分类需复核 |
+| [HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model](https://arxiv.org/abs/2610.40373) | 2026-10-29 | R3, R7 | 中科院自动化所 / 中科院计算所 / 香港中文大学 / 香港大学 / NUS / Nanjing University of Science and Technology | 自动整理 |
+| [TouchBridge: Tactile-Conditioned Human-to-Robot Transfer for Dexterous Manipulation](https://arxiv.org/abs/2610.40349) | 2026-10-29 | R9, R7 | 清华大学 / 北京大学 / 浙江大学 / NTU | 自动整理 |
+| [AcrossDEX 1.0: From Human Motion Pretraining to Bimanual Dexterous Manipulation across Hand Embodiments](https://arxiv.org/abs/2610.40210) | 2026-10-29 | R9, R2 | 待核验 | 自动整理 |
+| [RoboAtom: Large-scale Atomic-Action Supervision for Robot Learning](https://arxiv.org/abs/2610.40207) | 2026-10-29 | R3, R7, R11 | 智元 AgiBot / 上海人工智能实验室 / 清华大学 / 上海交通大学 / 浙江大学 / 复旦大学 | 分类需复核 |
+| [Coupled Guidance for Flow Matching](https://arxiv.org/abs/2610.40109) | 2026-10-29 | R2, R9, R11 | 华为 | 自动整理 |
+| [Learning Safe Flow Matching Robot Policies from Binary Feasibility Oracles](https://arxiv.org/abs/2610.40075) | 2026-10-29 | R2 | 上海交通大学 / Tongji University | 自动整理 |
+| [RoboSeed: Multidimensional Evaluation of Vision-Language-Action and World-Action Models: Capability, Resource Affordability, and Research Evidence](https://arxiv.org/abs/2610.40026) | 2026-10-29 | R4 | 香港大学 / NUS | 自动整理 |
+| [LOGIV: Graph-Verified Execution with Causal Local Repair for Long-Horizon Robot Tasks](https://arxiv.org/abs/2610.40016) | 2026-10-29 | R4 | 香港科技大学 | 分类需复核 |
+| [How Much Should a VLA Trust Its Reasoning? Step-Level Guidance as a Measured Action-Value Function](https://arxiv.org/abs/2610.40002) | 2026-10-29 | R11 | Department of Mechanical Engineering, Seoul National University | 分类需复核 |
+| [PASA-KV: Attacking Action-Facing Visual Routes in World Action Models](https://arxiv.org/abs/2610.39816) | 2026-10-29 | R4 | 上海交通大学 / NTU | 自动整理 |
+| [Kinematic-Tactile Aligned Dexterous Retargeting with Contact Wrench Space Alignment](https://arxiv.org/abs/2610.39582) | 2026-10-29 | R9, R3, R7 | 待核验 | 自动整理 |
+| [From Reasoning to Action: Consequence-Grounded Alignment for Vision-Language-Action Models](https://arxiv.org/abs/2610.39543) | 2026-10-29 | R7 | 北京大学 / Beijing Innovation Center of Humanoid Robotics, Beijing, China. / Renmin University of China, Beijing, China. / Beijing Forestry University, Beijing, China. | 分类需复核 |
+| [PRIME W0: Physical Priors from World Models for Embodied Manipulation](https://arxiv.org/abs/2610.39528) | 2026-10-29 | R2, R3, R4 | 清华大学 | 自动整理 |
+| [Smooth Action Chunking Via Movement-Primitive Representations for Imitation Learning](https://arxiv.org/abs/2610.39451) | 2026-10-29 | R2, R7 | The University of Tokyo, Tokyo, Japan. {nomura, kato, ota, shitanda, harada}@mi.t.u-tokyo.ac.jp | 分类需复核 |
+| [ScheduleGen: Demonstration Generation via Skill Scheduling for Multi-Arm Imitation Learning](https://arxiv.org/abs/2610.39429) | 2026-10-29 | R8, R7 | NVIDIA | 自动整理 |
+| [UMI-Live for In-The-Wild Bimanual Robotics Data Collection](https://arxiv.org/abs/2610.39385) | 2026-10-29 | R7 | CMU / University of Pennsylvania Harvard University | 自动整理 |
+| [Utility-WAM: Correcting Future-Induced Action Changes](https://arxiv.org/abs/2610.39367) | 2026-10-29 | R4, R11 | 清华大学 / 中科院自动化所 / 中科院计算所 / Johns Hopkins University / Northeastern University / Southeast University / PAI X Lab, Yinwang Intelligent Technology Co. Ltd. | 自动整理 |
+| [CAD-WAM: Anticipating Geometry for Text-to-CAD Generation](https://arxiv.org/abs/2610.39306) | 2026-10-29 | R4, R7 | 中国科学技术大学 / NTU | 自动整理 |
+| [OpenFlyV2: An onboard vision-language-action model for aerial perception and navigation](https://arxiv.org/abs/2610.39287) | 2026-10-29 | R5, R10, R2, R7 | 上海人工智能实验室 / 上海交通大学 / 浙江大学 / 中国科学技术大学 / Northwestern Polytechnical University / Beihang University / Institute of Artificial Intelligence of China Telecom (TeleAI) {liujunli,wangzhigang}@pjlab.org.cn | 自动整理 |
+| [Tactus: Tactile & Pose Sensing Glove for Natural Dexterity Data Collection](https://arxiv.org/abs/2610.39076) | 2026-10-29 | R9, R4 | Meta Reality Labs Research | 自动整理 |
+| [Robotic Data Inoculation](https://arxiv.org/abs/2610.39054) | 2026-10-28 | R7, R6 | Berkeley | 自动整理 |
+| [Catch It All!: Generalizable Dynamic Catching with a Dexterous Hand](https://arxiv.org/abs/2610.39044) | 2026-10-28 | R9, R7, R8 | 待核验 | 自动整理 |
+| [Quantize by Doing: Task-Guided Mixed-Precision Quantization of Vision-Language-Action Models](https://arxiv.org/abs/2610.38661) | 2026-10-28 |  | Northeastern University / USC Institute for Creative Technologies / University of Central Florida | 分类需复核 |
+| [Explore Where It Matters: Targeted Exploration for Efficient Rover Adaptation](https://arxiv.org/abs/2610.38657) | 2026-10-28 | R7, R4 | 1 University of Texas at Austin 2 Jet Propulsion Laboratory, California Institute of Technology | 分类需复核 |
+| [SaiVLA-JEPA: Evaluating Future Latent Prediction in JEPA-Conditioned VLA Control](https://arxiv.org/abs/2610.38508) | 2026-10-28 | R2 | 待核验 | 自动整理 |
+| [SimRetract: Zero-Shot Sim-to-Real Robotic Assistance for Retractor Take-Over in Open Surgery](https://arxiv.org/abs/2610.38234) | 2026-10-28 | R7 | 待核验 | 自动整理 |
+| [Embodied at Sea: Imitation Learning for Multi-Task Underwater Manipulation](https://arxiv.org/abs/2610.38199) | 2026-10-28 |  | New York University {gp2583, lim2045, ka3658, mki4908, c.clark}@nyu.edu / L-Università ta’ Malta ://lair-research-nyu.github.io/Embodied-at-Sea/ | 分类需复核 |
+| [Same Label, Different Interface: Beyond Action-Space Labels in Robot Learning](https://arxiv.org/abs/2610.38104) | 2026-10-28 |  | New York University / University of California San Diego | 分类需复核 |
 | [ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning](https://arxiv.org/abs/2610.37666) | 2026-10-27 | R6, R7 | NVIDIA / KAIST | 自动整理 |
 | [Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well](https://arxiv.org/abs/2610.37652) | 2026-10-27 | R9, R7 | University of California, Berkeley. / University of California, Davis. | 自动整理 |
 | [Learning Visuomotor Quadrotor Flight Through Dynamic Narrow Gaps via Differentiable Simulation](https://arxiv.org/abs/2610.37557) | 2026-10-27 | R7 | Robotics and Perception Group, University of Zurich | 自动整理 |
@@ -25,6 +56,10 @@
 | [CARD: Contact-Anchored Retargeting for Dexterous Manipulation](https://arxiv.org/abs/2610.36539) | 2026-10-27 | R9, R7 | Berkeley / CMU | 自动整理 |
 | [GRAFT: Geometry-Aware Residual Adaptation for Foundation Trackers](https://arxiv.org/abs/2610.36507) | 2026-10-27 | R8, R7 | 待核验 | 自动整理 |
 | [SO-101 Bench: Accessible Spatial Manipulation](https://arxiv.org/abs/2610.36420) | 2026-10-27 | R11, R4, R7 | Independent | 分类需复核 |
+| [Self-Labeled Preference Transfer for Steerable Robot Manipulation](https://arxiv.org/abs/2610.38000) | 2026-10-27 | R7 | Stanford / University of Illinois Urbana-Champaign / University of California, Berkeley / Harvard University / University of Illinois Chicago | 分类需复核 |
+| [What Actually Matters? A Paired Evaluation of Inference Settings for $π_{0.5}$ on BEHAVIOR-1K](https://arxiv.org/abs/2610.37917) | 2026-10-27 |  | VCAI Lab, Kiel University / RobotiXX Lab, George Mason University / AIR Lab, Ewha Womans University | 分类需复核 |
+| [Echo: Scaling Visual Reinforcement Learning with Off-policy Experience](https://arxiv.org/abs/2610.37865) | 2026-10-27 | R6, R9, R7 | 待核验 | 自动整理 |
+| [DexSuite: An All-in-One Framework for Dexterous Manipulation Across Arms, Hands, and Tasks](https://arxiv.org/abs/2610.37799) | 2026-10-27 | R9, R7, R11 | Mila / McGill University / Kinova | 自动整理 |
 | [OSWAM: An Effective World Action Model with One-Step Action Generation](https://arxiv.org/abs/2610.35850) | 2026-10-26 | R4, R2 | The Hong Kong Polytechnic University | 自动整理 |
 | [Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy](https://arxiv.org/abs/2610.35832) | 2026-10-26 | R4 | 上海人工智能实验室 / 上海交通大学 / 浙江大学 / 复旦大学 | 自动整理 |
 | [Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent](https://arxiv.org/abs/2610.35817) | 2026-10-26 | R7 | Luma AI | 自动整理 |
@@ -53,7 +88,7 @@
 | [HuGe: Scaling Humanoid Generalist Vision-Language-Action Models with Egocentric Experience](https://arxiv.org/abs/2610.34186) | 2026-10-25 | R8, R7, R11 | 上海交通大学 / 浙江大学 / 中国科学技术大学 / Westlake University / Beijing University of Posts and Telecommunications / Southwest University of Finance and Economics / University of Sussex / Xi’an Jiaotong University / Shanghai Innovation Institute / Hebei University of Technology | 自动整理 |
 | [RoboDuo: Attempt, Check and Atomic Recovery through Code for Vision-Language-Action Models](https://arxiv.org/abs/2610.34108) | 2026-10-25 | R3 | 清华大学 / Robotera / Huazhong University of Science and Technology | 自动整理 |
 | [Learning Interaction-Aware Path Corrections from Unlabeled Trajectories: A LiDAR-Based Sim-to-Real GNN Framework for Construction Robots](https://arxiv.org/abs/2610.34060) | 2026-10-25 | R7, R10 | Georgia Tech | 自动整理 |
-| [Behavior Spatial Benchmark: Evaluating Spatial Understanding for Robotics](https://arxiv.org/abs/2610.34051) | 2026-10-25 | R11, R10 | Stanford | 自动整理 |
+| [BEHAVIOR-Spatial Benchmark: Evaluating Spatial Understanding for Robotics](https://arxiv.org/abs/2610.34051) | 2026-10-25 | R11, R10 | Stanford | 自动整理 |
 | [TurboWAM: Learning What Matters for Fast World Action Models](https://arxiv.org/abs/2610.33941) | 2026-10-24 | R4 | 华为 / University of Alberta | 自动整理 |
 | [Late Breaking Results: Audio-Language-Action Models with Direct Speech Conditioning for Robotic Manipulation](https://arxiv.org/abs/2610.33866) | 2026-10-24 |  | 1 Northeastern University 2 EmbodyX Inc. | 分类需复核 |
 | [AdaDexTrack: Dynamic Modulation for Adaptive and Generalizable Dexterous Manipulation Tracking](https://arxiv.org/abs/2610.33852) | 2026-10-24 | R9, R7 | 清华大学 | 自动整理 |
