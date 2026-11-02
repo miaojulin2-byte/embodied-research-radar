@@ -1,5 +1,16 @@
 | 名称 | 日期 | 路线 | 机构 | 状态 |
 |---|---|---|---|---|
+| [CausalWAM: Learning the Causes of Actions in World Action Models](https://arxiv.org/abs/2610.42096) | 2026-10-30 | R4 | UIUC / UCSD | 自动整理 |
+| [REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control](https://arxiv.org/abs/2610.42053) | 2026-10-30 | R3, R8 | 中科院自动化所 / 中科院计算所 / 香港科技大学 / NUS | 自动整理 |
+| [Nexus-VLA: Bridging Human and Robot Experiences via a Shared Hierarchical Semantic Latent Space](https://arxiv.org/abs/2610.42021) | 2026-10-30 | R3 | 待核验 | 自动整理 |
+| [When Does Test-Time Search Help World Action Models? An Empirical Audit of Candidate Selection and Simulator Integrity](https://arxiv.org/abs/2610.41970) | 2026-10-30 | R4 | Stanford / Berkeley / CMU / Harvard University / MIT / Fujitsu / Florida International University / University of Georgia / Northeastern University / EmbodyX Inc | 自动整理 |
+| [When the Simulator Fails, Not the Policy: Auditing Contact Artifacts in Simulated Robot Benchmarks](https://arxiv.org/abs/2610.41857) | 2026-10-30 | R4, R7, R11 | 清华大学 / 中科院自动化所 / 中科院计算所 / 中国科学院大学 | 分类需复核 |
+| [VLA Policies Do Not Know When Not to Act: Unintended Task Execution and Start Suppression](https://arxiv.org/abs/2610.41609) | 2026-10-30 | R7 | Electronics and Telecommunications Research Institute (ETRI), Daejeon, Republic of Korea University of Science and Technology (UST), Daejeon, Republic of Korea {minsu, jwchoi0717, youngwoo, dhkim008}@etri.re.kr | 分类需复核 |
+| [SACQ: Structure-Aware Codebook Quantization for Ultra-Low-Bit Vision-Language-Action Models](https://arxiv.org/abs/2610.41408) | 2026-10-30 |  | KAIST | 分类需复核 |
+| [HandMimicX: Learning Human-Like Dexterous Manipulation via an Object-Centric Policy from Egocentric Videos](https://arxiv.org/abs/2610.41336) | 2026-10-30 | R9, R6, R7 | 清华大学 / 香港中文大学 / 香港大学 / NVIDIA | 自动整理 |
+| [TRACE: Target-State Risk-Aligned Conditional Execution for Embodied Tracking](https://arxiv.org/abs/2610.41275) | 2026-10-30 |  | 中科院自动化所 / 中科院计算所 | 分类需复核 |
+| [FlowMoDE: Coarse-to-fine Flow Matching for Detail-aware Sim-to-Real Monocular Depth Estimation](https://arxiv.org/abs/2610.41190) | 2026-10-30 | R2, R7 | 香港中文大学 / 香港大学 / Liangjing Shao, Wanhao Liu and Hongliang Ren are also with Shenzhen Loop Area Institute. | 自动整理 |
+| [Mechanistic Interpretability for End-to-End Self-Driving](https://arxiv.org/abs/2610.41185) | 2026-10-30 |  | Department of Electrical & Computer Engineering, Purdue University / Department of Computer Science, Purdue University {mgagvani, bnamikas, svelmuru, kumar753 | 分类需复核 |
 | [Gym-Anything for Robotics: Scaling physical simulations with digital agents](https://arxiv.org/abs/2610.40565) | 2026-10-29 | R7, R11 | CMU | 分类需复核 |
 | [BURGER: Benchmarking and Understanding Robotic Generalization via Embodied Drawing](https://arxiv.org/abs/2610.40532) | 2026-10-29 | R7, R11 | 清华大学 | 分类需复核 |
 | [Improving Fine-Grained Manipulation through Demonstration Expansion and Execution Design](https://arxiv.org/abs/2610.40430) | 2026-10-29 | R3 | Nanjing University | 分类需复核 |
@@ -23,6 +34,14 @@
 | [CAD-WAM: Anticipating Geometry for Text-to-CAD Generation](https://arxiv.org/abs/2610.39306) | 2026-10-29 | R4, R7 | 中国科学技术大学 / NTU | 自动整理 |
 | [OpenFlyV2: An onboard vision-language-action model for aerial perception and navigation](https://arxiv.org/abs/2610.39287) | 2026-10-29 | R5, R10, R2, R7 | 上海人工智能实验室 / 上海交通大学 / 浙江大学 / 中国科学技术大学 / Northwestern Polytechnical University / Beihang University / Institute of Artificial Intelligence of China Telecom (TeleAI) {liujunli,wangzhigang}@pjlab.org.cn | 自动整理 |
 | [Tactus: Tactile & Pose Sensing Glove for Natural Dexterity Data Collection](https://arxiv.org/abs/2610.39076) | 2026-10-29 | R9, R4 | Meta Reality Labs Research | 自动整理 |
+| [Contact Imitation Interface: Transferring Dexterous Skills by Showing How Contact Unfolds](https://arxiv.org/abs/2610.41028) | 2026-10-29 | R9, R3 | NUS | 自动整理 |
+| [CuPIQP: A Batched and Differentiable QP Solver on GPUs for Robot Learning and Control](https://arxiv.org/abs/2610.41021) | 2026-10-29 | R8 | ETH Zurich / F. Song, Y. Chen and C. N. Jones are with the Automatic Control Laboratory, EPFL, Switzerland. {fenglong.song, yuwen.chen, colin.jones}@epfl.ch / R. Schwan is with the Accessible and Accelerated Robotics Lab, Dartmouth College, USA. | 分类需复核 |
+| [STAR: Steering Action Representations during Inference](https://arxiv.org/abs/2610.41009) | 2026-10-29 |  | 北京大学 / BIGAI | 分类需复核 |
+| [Confidence-Modulated Safety Filtering for End-to-End Policies](https://arxiv.org/abs/2610.40922) | 2026-10-29 |  | Department of Electrical and Computer Engineering, Princeton University | 分类需复核 |
+| [Frozen in Time: How a Physics Foundation Model Forgets Under Sim-to-Real Adaptation](https://arxiv.org/abs/2610.40857) | 2026-10-29 | R7 | University of Cambridge / Polymathic AI | 自动整理 |
+| [From Teleoperation to Long-Horizon Dexterity: Evaluating Visuomotor Skills and Offline Proxies for Dexterous Manipulation](https://arxiv.org/abs/2610.40828) | 2026-10-29 | R7, R9 | Analog Devices, Inc., EdgeAI Robotics, Limerick, Ireland | 自动整理 |
+| [CaPtain: A Pipeline for Post-Training Code-as-Policy Robot Agents](https://arxiv.org/abs/2610.40799) | 2026-10-29 | R6, R7 | 香港中文大学 / 香港大学 | 分类需复核 |
+| [WorldBridge: Bridging Video and Action for Task Generalization in World Action Models](https://arxiv.org/abs/2610.40748) | 2026-10-29 | R4, R2 | 待核验 | 自动整理 |
 | [Robotic Data Inoculation](https://arxiv.org/abs/2610.39054) | 2026-10-28 | R7, R6 | Berkeley | 自动整理 |
 | [Catch It All!: Generalizable Dynamic Catching with a Dexterous Hand](https://arxiv.org/abs/2610.39044) | 2026-10-28 | R9, R7, R8 | 待核验 | 自动整理 |
 | [Quantize by Doing: Task-Guided Mixed-Precision Quantization of Vision-Language-Action Models](https://arxiv.org/abs/2610.38661) | 2026-10-28 |  | Northeastern University / USC Institute for Creative Technologies / University of Central Florida | 分类需复核 |
