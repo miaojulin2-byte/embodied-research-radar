@@ -334,7 +334,7 @@
 | [Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience](https://arxiv.org/abs/2610.26855) | 2026-10-19 | R8, R11, R4, R7, R9 | 清华大学 / NTU | 自动整理 |
 | [CoopUQ: Robust Multi-Robot Social Navigation via Uncertainty-Aware Cooperative Forecasting](https://arxiv.org/abs/2610.26852) | 2026-10-19 | R10, R6, R7 | Georgia Tech / University of California, Riverside / University of Michigan, Ann Arbor / University of Georgia / New York University / KAIST | 自动整理 |
 | [PICA-WAM: Visual Perturbation Invariance via Cross-Appearance Self-Alignment in World Action Models](https://arxiv.org/abs/2610.26813) | 2026-10-19 | R4, R7 | 上海人工智能实验室 / 上海交通大学 / 复旦大学 | 自动整理 |
-| [Physical AI: Concepts, Techniques, and Challenges](https://arxiv.org/abs/2610.27045) | 2026-10-19 | R7 | 待核验 | 分类需复核 |
+| [Physical AI: Concepts, Techniques, and Challenges](https://arxiv.org/abs/2610.27045) | 2026-10-19 | R7 | 上海人工智能实验室 | 分类需复核 |
 | [V-JEPA Hand: Simple, Accurate and Fast 3D Hand and Camera Trajectory Recovery from Egocentric Videos](https://arxiv.org/abs/2610.26780) | 2026-10-19 | R4 | 清华大学 | 分类需复核 |
 | [HandsOn: A Large-Scale Simulation Benchmark for Generalizable Dexterous Manipulation](https://arxiv.org/abs/2610.26765) | 2026-10-19 | R9, R7, R11, R2, R4 | 清华大学 / 北京大学 | 自动整理 |
 | [Robot Learning with Vision-Language-Action Models for Agricultural Manipulation](https://arxiv.org/abs/2610.26717) | 2026-10-19 | R7 | Department of Electrical and Computer Engineering, The University of Memphis, Memphis, TN, USA / Department of Mechanical Engineering, Clemson University, Clemson, SC 29634 USA | 分类需复核 |
@@ -1089,7 +1089,7 @@
 | [MemBodied: Recurrent Associative Memory for Vision-Language-Action Models](https://arxiv.org/abs/2609.28256) | 2026-09-23 |  | NTU | 分类需复核 |
 | [Dissecting Advantage-Guided Post-Training for Vision-Language-Action Policies](https://arxiv.org/abs/2609.28161) | 2026-09-23 | R6 | 上海交通大学 / Xiaomi Robotics. | 分类需复核 |
 | [AutoPruner: Agentic Depth Pruning for Vision-Language-Action Models](https://arxiv.org/abs/2610.23880) | 2026-09-23 |  | 香港科技大学 | 分类需复核 |
-| [SlackDrive: Reclaiming Runtime Slack for Adaptive Driving Inference](https://arxiv.org/abs/2609.28064) | 2026-09-23 | R4 | 待核验 | 分类需复核 |
+| [SlackDrive: Reclaiming Runtime Slack for Adaptive Driving Inference](https://arxiv.org/abs/2609.28064) | 2026-09-23 | R4 | 上海交通大学 / 香港大学 / NVIDIA | 分类需复核 |
 | [Learning a Speed-adaptive Hip Exoskeleton Control Policy Via Sim-to-real Reinforcement Learning](https://arxiv.org/abs/2609.28027) | 2026-09-23 | R7, R6 | 待核验 | 自动整理 |
 | [Less Language, More Latents: Annotation-Efficient VLAs for Driving](https://arxiv.org/abs/2609.27747) | 2026-09-23 | R11 | Five AI Ltd., United Kingdom | 分类需复核 |
 | [InfiNoVA: Infinite Novel View Augmentation for Viewpoint Invariant Robot Policies](https://arxiv.org/abs/2609.27734) | 2026-09-23 |  | 待核验 | 分类需复核 |
@@ -1880,7 +1880,7 @@
 | [τ: Learning Touch-Augmented Vision-Language-Action Models from Future Visual Supervision](https://arxiv.org/abs/2607.24485) | 2026-07-27 | R9, R7 | Beijing Jiaotong University Beijing Institute for General Artificial Intelligence | 自动整理 |
 | [LeapBot-WA: World-Anchor Action Models via Predictive Latent Alignments](https://arxiv.org/abs/2607.23969) | 2026-07-27 | R4, R2 | 香港科技大学 | 自动整理 |
 | [Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation](https://arxiv.org/abs/2609.25010) | 2026-07-27 | R7 | 待核验 | 自动整理 |
-| [DeVA: Decoupled Video-Action Model with physical guidance for robot policy learning](https://arxiv.org/abs/2607.24159) | 2026-07-27 | R2, R7 | 待核验 | 分类需复核 |
+| [DeVA: Decoupled Video-Action Model with physical guidance for robot policy learning](https://arxiv.org/abs/2607.24159) | 2026-07-27 | R2, R7 | Georgia Tech | 分类需复核 |
 | [A Motion-Aware Vector Quantization Framework with Centroid Reuse for Efficient VLA Inference](https://arxiv.org/abs/2607.24148) | 2026-07-27 |  | 上海交通大学 / 中科院自动化所 / 中科院计算所 | 分类需复核 |
 | [Effective Parameters, Real Behavior: Renormalization for Robotics -- From Infinite Electron Mass to Sim-to-Real Gap](https://arxiv.org/abs/2607.24079) | 2026-07-27 | R7 | 香港中文大学 / 香港大学 / Stanford / University of Maryland, College Park | 自动整理 |
 | [FutureRTC: Real-Time Robot Execution with Anticipatory-Conditioned Action Chunking](https://arxiv.org/abs/2607.24008) | 2026-07-27 |  | 电子科技大学 | 分类需复核 |
@@ -1995,7 +1995,7 @@
 | [FlowWAM: Optical Flow as a Unified Action Representation for World Action Models](https://arxiv.org/abs/2607.13017) | 2026-07-14 | R4, R2 | 中科院自动化所 / 中科院计算所 / 中国科学院大学 / 阿里巴巴 / FiveAges / MBZUAI | 自动整理 |
 | [ChunkFlow: Towards Continuity-Consistent Chunked Policy Learning](https://arxiv.org/abs/2607.12992) | 2026-07-14 |  | State Key Laboratory of Human-Machine Hybrid Augmented Intelligence, Institute of Artificial Intelligence and Robotics, Xi’an Jiaotong University, China. / Jiangsu Cytoderm Intelligent Technology Co., Ltd., China. | 分类需复核 |
 | [ExToken: Structured Exploration for Efficient Vision-Language-Action Reinforcement Fine-tuning](https://arxiv.org/abs/2607.12931) | 2026-07-14 | R6 | 浙江大学 / NTU / ACE Robotics | 分类需复核 |
-| [Hy-Embodied-VLM-1.0: Efficient Physical-World Agents](https://arxiv.org/abs/2607.12894) | 2026-07-14 | R5, R11 | 待核验 | 分类需复核 |
+| [Hy-Embodied-VLM-1.0: Efficient Physical-World Agents](https://arxiv.org/abs/2607.12894) | 2026-07-14 | R5, R11 | 腾讯 | 分类需复核 |
 | [UR-VC: Unsupervised Robotic Value Correction for Time-Derived Progress Proxies](https://arxiv.org/abs/2607.12892) | 2026-07-14 |  | 香港大学 | 分类需复核 |
 | [From Critic to Confidence: PPO for Language-Based Quantitative Prediction with Confidence Estimation](https://arxiv.org/abs/2607.12687) | 2026-07-14 | R6 | University of California, Santa Barbara | 自动整理 |
 | [TrustVLA: Mechanism-Guided Inference-Time Defense Against Vision-Language-Action Backdoors](https://arxiv.org/abs/2607.12571) | 2026-07-14 | R1 | 中科院自动化所 / 中科院计算所 / School of Computer Science, Wuhan University / D-Robotics / HUST | 分类需复核 |
