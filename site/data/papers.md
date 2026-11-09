@@ -1,5 +1,25 @@
 | 名称 | 日期 | 路线 | 机构 | 状态 |
 |---|---|---|---|---|
+| [Korea Advances Physical AI Across Industries With NVIDIA](https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/) | 2026-11-09 | R7 | 待核验 | 分类需复核 |
+| [On Agentic Manipulation Policies](https://arxiv.org/abs/2611.09892) | 2026-11-06 | R10, R4 | Apple | 自动整理 |
+| [SURE:Spatiotemporal Uncertainty Representation for Efficient Vision-Language-Action Learning](https://arxiv.org/abs/2611.09684) | 2026-11-06 |  | 清华大学 | 分类需复核 |
+| [Autonomous Particle Image Velocimetry Using Zero-Shot Sim-to-Real Reinforcement Learning](https://arxiv.org/abs/2611.09679) | 2026-11-06 | R7, R6 | ETH Zurich | 自动整理 |
+| [ODEAction: From Predicting Chunks to Evolving Actions](https://arxiv.org/abs/2611.09672) | 2026-11-06 |  | 清华大学 / 浙江大学 / 复旦大学 / 中国科学技术大学 | 分类需复核 |
+| [DKWBC: Decoupling Motion Tracking and Balancing for Humanoid Whole-Body Control](https://arxiv.org/abs/2611.09605) | 2026-11-06 | R8, R7 | 浙江大学 / 香港大学 | 自动整理 |
+| [Can LLMs Debug Robots by Editing Their Weights?](https://arxiv.org/abs/2611.09376) | 2026-11-06 | R11 | Google DeepMind / Stanford | 分类需复核 |
+| [HiMEM: Hippocampus-Inspired Memory Consolidation, Pruning, and Composition for Vision-Language-Action Models in 3D Scenes](https://arxiv.org/abs/2611.09355) | 2026-11-06 |  | 待核验 | 分类需复核 |
+| [Probably Safe Sim-to-Real Transfer with Lifetime Validity](https://arxiv.org/abs/2611.09344) | 2026-11-06 | R7, R6 | Machine Learning Research Group, University of Oxford, Oxford, United Kingdom | 自动整理 |
+| [MDF++: Visuo-Tactile World Action Model with End-to-end Representation Learning](https://arxiv.org/abs/2611.09293) | 2026-11-06 | R4, R2 | Department of Robotics / University of Michigan, Ann Arbor, United States | 自动整理 |
+| [SUGARv2: Learning Diverse Visual Humanoid Loco-Manipulation Skills from Synthesized Interaction References](https://arxiv.org/abs/2611.09266) | 2026-11-06 | R8, R7, R6 | 北京大学 | 自动整理 |
+| [Augmentron: Scalable Multi-View Visual Augmentation for Robot Learning](https://arxiv.org/abs/2611.09145) | 2026-11-06 | R7 | University of Pennsylvania Scale AI | 分类需复核 |
+| [Toward the Era of Agentic Embodied Intelligence](https://arxiv.org/abs/2611.09124) | 2026-11-06 | R4, R11 | 上海交通大学 | 分类需复核 |
+| [DobotTrack: Target-Grounded Vision-Language-Action Learning for Embodied Person Tracking](https://arxiv.org/abs/2611.09041) | 2026-11-06 | R7 | 清华大学 / 香港大学 | 分类需复核 |
+| [VLA Handover: Failure-Prediction-Based Switching from On-Robot to Server VLA Models](https://arxiv.org/abs/2611.08987) | 2026-11-06 | R7 | School of Engineering, Institute of Science Tokyo, Tokyo 152-8550, Japan Email | 分类需复核 |
+| [RevoSim: Scalable Multimodal Tactile Simulation for Dexterous Manipulation](https://arxiv.org/abs/2611.08939) | 2026-11-06 | R9, R7 | 香港科技大学 | 自动整理 |
+| [PRISM: Primitive Routing via In-context Skill Mixing for Retentive VLA Adaptation](https://arxiv.org/abs/2611.08917) | 2026-11-06 | R2 | University of Illinois Chicago | 自动整理 |
+| [Localizing and Editing the Goal Representation of a Vision-Language-Action Model](https://arxiv.org/abs/2611.08895) | 2026-11-06 | R1 | University of Louisville | 自动整理 |
+| [STRIDE: Learning Humanoid Locomotion in Minutes with Acceleration-Based Rewards](https://arxiv.org/abs/2611.08857) | 2026-11-06 | R8, R7, R6 | Technical University of Darmstadt, Germany / Robotics Institute Germany (RIG) / German Research Center for AI (DFKI) / hessian.AI | 自动整理 |
+| [ActPrune: Action-Grounded Visual Token Pruning for Efficient Vision-Language-Action Models](https://arxiv.org/abs/2611.08827) | 2026-11-06 | R7 | Human-Centered Artificial Intelligence Research Institute, Ewha Womans University {sungwon268,lee.jiyoung} @ewha.ac.kr / Division of Artificial Intelligence & Software, Ewha Womans University {kim.minji03,hyeminb,songd,lee.jiyoung} @ewha.ac.kr | 分类需复核 |
 | [OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions](https://arxiv.org/abs/2611.08462) | 2026-11-05 |  | 待核验 | 分类需复核 |
 | [Latent RL Priors for Data-Efficient Dexterous Manipulation](https://arxiv.org/abs/2611.08458) | 2026-11-05 | R9, R2, R6, R7 | University of California, Berkeley / Amazon | 自动整理 |
 | [VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding](https://arxiv.org/abs/2611.08449) | 2026-11-05 | R4, R1 | 香港大学 / NVIDIA | 分类需复核 |
@@ -16,7 +36,10 @@
 | [Closed-Loop Physics-Based Manipulation Evaluation at a Commodity Price: What 4.4 L4 GPU hours at $3.50 Buys You](https://arxiv.org/abs/2611.07441) | 2026-11-05 |  | 待核验 | 分类需复核 |
 | [Kinematic Hypothesis Context: Embodiment-Conditioned Learned Video Coding for Bandwidth-Limited Robot Policy Uplinks](https://arxiv.org/abs/2611.07411) | 2026-11-05 |  | 清华大学 | 分类需复核 |
 | [An Empirical Study of Reinforcement Learning for Keypoint Positioning of Deformable Linear Objects](https://arxiv.org/abs/2611.07261) | 2026-11-05 | R6, R7 | Human-Robot Interfaces and Interaction (HRII) Laboratory, Istituto Italiano di Tecnologia (IIT), 16163 Genoa, Italy. / Ph.D. Program of National Interest in Robotics and Intelligent Machines (DRIM), and Università degli Studi di Genova, Genoa, Italy. | 自动整理 |
-| [From Pixels to Actions - Towards Native Vision-Language-Action Policies](https://arxiv.org/abs/2611.06918) | 2026-11-04 | R2 | NTU | 自动整理 |
+| [VICTR: Value-Informed In-Context Learning for Vision-Language-Action Models](https://arxiv.org/abs/2611.08698) | 2026-11-05 |  | New York University, New York, NY, USA. | 分类需复核 |
+| [Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation](https://arxiv.org/abs/2611.08577) | 2026-11-05 | R1, R2 | 待核验 | 分类需复核 |
+| [Q-OIL: Optimistic Exploration in Learning from Human Interventions](https://arxiv.org/abs/2611.08576) | 2026-11-05 | R7, R6 | Toyota Research Institute / University of Washington | 分类需复核 |
+| [From Pixels to Actions -- Towards Native Vision-Language-Action Policies](https://arxiv.org/abs/2611.06918) | 2026-11-04 | R2 | NTU | 自动整理 |
 | [Reinforcement Learning Enables Scaling Generalist Robot Policy Improvement](https://arxiv.org/abs/2611.06905) | 2026-11-04 | R6 | Physical Intelligence / CMU / ETH Zurich | 自动整理 |
 | [Open-HumanWAM: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models](https://arxiv.org/abs/2611.06817) | 2026-11-04 | R4, R7 | 北京大学 / NVIDIA | 分类需复核 |
 | [Where Is VLA Inference Time Spent? Bottlenecks and Optimization Interactions Across GPUs](https://arxiv.org/abs/2611.06710) | 2026-11-04 |  | 待核验 | 分类需复核 |
