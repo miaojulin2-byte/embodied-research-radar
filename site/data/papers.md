@@ -1,5 +1,16 @@
 | 名称 | 日期 | 路线 | 机构 | 状态 |
 |---|---|---|---|---|
+| [How AI Helps Recyclers Turn Mixed Waste Into Reusable Material](https://blogs.nvidia.com/blog/ai-recycling-startups/) | 2026-11-11 |  | 待核验 | 分类需复核 |
+| [Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies](https://arxiv.org/abs/2611.14488) | 2026-11-10 |  | NTU | 分类需复核 |
+| [One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge](https://arxiv.org/abs/2611.14432) | 2026-11-10 | R2, R7 | 待核验 | 自动整理 |
+| [From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models](https://arxiv.org/abs/2611.14365) | 2026-11-10 | R4, R2 | NUS | 自动整理 |
+| [Elastic-WAM: Adaptive Spatiotemporal Imagination for Efficient Robot Control](https://arxiv.org/abs/2611.14257) | 2026-11-10 | R4, R7 | 清华大学 / 浙江大学 / 哈尔滨工业大学 / 香港科技大学 / NUS / NTU | 分类需复核 |
+| [DexSeed: Expanding Human Hand-Object Interactions into Robot Demonstrations for Dexterous Policy Learning](https://arxiv.org/abs/2611.14092) | 2026-11-10 | R9, R7 | 浙江大学 / 香港大学 | 自动整理 |
+| [RedirectMimic: Local Motion Content Redaction for Humanoid Whole-Body Control](https://arxiv.org/abs/2611.14049) | 2026-11-10 | R8, R7 | Wuhan University | 自动整理 |
+| [LaST0.5: A Generalist World Action Model with Interaction-Centric Latent Reasoning](https://arxiv.org/abs/2611.14048) | 2026-11-10 | R4, R2, R9 | 北京大学 / 香港中文大学 / 香港大学 | 自动整理 |
+| [WAM is capable in BEHAVIOR-1K: the 2nd-place solution to the 2026 BEHAVIOR Challenge](https://arxiv.org/abs/2611.13818) | 2026-11-10 | R10, R4, R6 | 待核验 | 自动整理 |
+| [Ego Guidance: Enhancing Robot Policy Learning with Action-Free Human Egocentric Videos](https://arxiv.org/abs/2611.13685) | 2026-11-10 |  | 待核验 | 分类需复核 |
+| [DeRep: Learning Depth Representations for End-to-End Navigation in Cluttered Environments](https://arxiv.org/abs/2611.13499) | 2026-11-10 | R10, R2, R6, R7 | CMU | 自动整理 |
 | [Korea Advances Physical AI Across Industries With NVIDIA](https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/) | 2026-11-09 | R7 | 待核验 | 分类需复核 |
 | [SWAM: Scaling World Action Models with Cross-Modal Alignment](https://arxiv.org/abs/2611.12870) | 2026-11-09 | R4, R7 | 上海交通大学 | 自动整理 |
 | [Learning Heterogeneous Tactile Representation for General Dexterous Manipulation](https://arxiv.org/abs/2611.12806) | 2026-11-09 | R9, R2, R7 | Physical Intelligence | 自动整理 |
@@ -23,6 +34,10 @@
 | [PAIR: Proprioception-Aligned Image-Ray Representations for Viewpoint-Robust Manipulation](https://arxiv.org/abs/2611.11798) | 2026-11-09 | R2 | University of Virginia {dcs3zc,xuhui,ylkuo}@virginia.edu | 分类需复核 |
 | [Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation](https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/) | 2026-11-09 | R7 | 待核验 | 自动整理 |
 | [NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum](https://blogs.nvidia.com/blog/korean-startup-investments-msit/) | 2026-11-09 |  | 待核验 | 分类需复核 |
+| [How Much of Your VLA Is kNN](https://arxiv.org/abs/2611.13160) | 2026-11-09 | R11, R7 | 待核验 | 自动整理 |
+| [Robo-MLT: Dual-System Robotic Manipulation for Long-Horizon Medical Laboratory Tasks](https://arxiv.org/abs/2611.13039) | 2026-11-09 | R3 | 清华大学 / School of Automation, Chongqing University, Chongqing, 400044, China. / School of Computer Science, The University of Sheffield, Sheffield, S1 4DP, United Kingdom. | 自动整理 |
+| [RoboACE: Adversarial Co-Evolution for Robot Self-Improvement](https://arxiv.org/abs/2611.13034) | 2026-11-09 | R6 | 待核验 | 自动整理 |
+| [APS-VLA: Action-Guided and Future-Aware Token Pruning for Efficient Vision-Language-Action Models](https://arxiv.org/abs/2611.13030) | 2026-11-09 |  | 待核验 | 分类需复核 |
 | [SurgTAP-3D: A Large-Scale Cross-Surgery Video Dataset with Contact-Aware 3D Motion Tracking](https://arxiv.org/abs/2611.11697) | 2026-11-08 | R7, R11 | 上海交通大学 / 浙江大学 / 香港中文大学 / 香港科技大学 / 香港大学 | 自动整理 |
 | [Streaming Failure Forecasting: VLA Failure Monitors That Keep Learning After Deployment](https://arxiv.org/abs/2611.11688) | 2026-11-08 | R7 | Purdue University Fort Wayne / sff-research.org | 分类需复核 |
 | [FlowEval: How Much Adaptation Does an Embodied Foundation Model Need at Deployment?](https://arxiv.org/abs/2611.11650) | 2026-11-08 | R2 | 待核验 | 自动整理 |
