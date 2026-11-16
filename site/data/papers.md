@@ -1,5 +1,15 @@
 | 名称 | 日期 | 路线 | 机构 | 状态 |
 |---|---|---|---|---|
+| [AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities](https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/) | 2026-11-16 |  | 待核验 | 分类需复核 |
+| [Training Reasoning Models in Simulation to Natively Use Real Robots](https://arxiv.org/abs/2611.18562) | 2026-11-13 | R7, R6 | NVIDIA / Berkeley / MIT / Inco AI / UCSD | 自动整理 |
+| [When Will You Hand It Over? A Hidden Start Delay Makes Self-Play Handover Robust to Unfamiliar Partners](https://arxiv.org/abs/2611.18491) | 2026-11-13 | R8 | University of North Texas / Budapest University of Technology and Economics | 分类需复核 |
+| [Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent](https://arxiv.org/abs/2611.18397) | 2026-11-13 | R6, R7 | 待核验 | 分类需复核 |
+| [Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment](https://arxiv.org/abs/2611.18372) | 2026-11-13 | R1, R4, R8, R10, R11 | Witsense AI / Department of Computer Science, University of Huddersfield | 分类需复核 |
+| [Heavy Metal Acrobatics: Learning Dynamic Control for Skid-Steer Loaders](https://arxiv.org/abs/2611.18365) | 2026-11-13 | R7 | ETH Zurich | 分类需复核 |
+| [ESI: An Embodied Self-Improvement Flywheel for LLM-VLA Agents](https://arxiv.org/abs/2611.18176) | 2026-11-13 | R6 | 中国科学技术大学 | 自动整理 |
+| [VACO: Vertex-Aligned Decoding for Dense Hand Contact Estimation from a Single Image](https://arxiv.org/abs/2611.17755) | 2026-11-13 | R9 | 浙江大学 | 分类需复核 |
+| [Joint World Action Models through Differentiable Trajectory Optimization](https://arxiv.org/abs/2611.17626) | 2026-11-13 | R4 | Berkeley | 自动整理 |
+| [TouchTwin: Scaling Human Touch Data via Real-to-Sim-to-Real](https://arxiv.org/abs/2611.17619) | 2026-11-13 | R9, R7 | Stanford | 自动整理 |
 | [SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models](https://arxiv.org/abs/2611.17110) | 2026-11-12 | R4 | 清华大学 | 分类需复核 |
 | [Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors](https://arxiv.org/abs/2611.17060) | 2026-11-12 | R7, R8 | 待核验 | 分类需复核 |
 | [Fog-FWL: A Large-Scale Full-Waveform LiDAR Dataset for Recovering Fog-Hidden Objects](https://arxiv.org/abs/2611.16742) | 2026-11-12 | R7, R11 | Keio University, Japan. | 自动整理 |
@@ -10,6 +20,8 @@
 | [Memory-Efficient Parallel Policy Learning for Collapse-Reactive Retreat via Hybrid Terrain Modeling](https://arxiv.org/abs/2611.16337) | 2026-11-12 | R6, R7 | 待核验 | 分类需复核 |
 | [Alloy: A Multi-Material Physics Engine for Robot Learning](https://arxiv.org/abs/2611.16312) | 2026-11-12 |  | Argon Robotics | 分类需复核 |
 | [What Can a VLA Learn from the Agent That Calls It? Task-Level Experience Distillation for Embodied Navigation](https://arxiv.org/abs/2611.16246) | 2026-11-12 | R10 | 清华大学 | 自动整理 |
+| [Offline KL-Regularized Reinforcement Learning with Stochastic Transitions](https://arxiv.org/abs/2611.17603) | 2026-11-12 | R6 | Columbia | 自动整理 |
+| [Agentic-Teacher: An Agentic Data Engine for Failure-Driven VLA Post-Training](https://arxiv.org/abs/2611.17394) | 2026-11-12 | R2, R7 | 智元 AgiBot / 清华大学 | 分类需复核 |
 | [How AI Helps Recyclers Turn Mixed Waste Into Reusable Material](https://blogs.nvidia.com/blog/ai-recycling-startups/) | 2026-11-11 |  | 待核验 | 分类需复核 |
 | [Robo-SWE: An Executable Issue-Resolution Dataset Mined from Robot Software Repositories](https://arxiv.org/abs/2611.16116) | 2026-11-11 | R7, R3 | 1 Bilkent University, Ankara, Turkey / 3 Technical University of Munich, Munich, Germany / {vahid.haratian,vahid.ansari}@evalium.ai, {hossein.malmir,k}@tum.de | 自动整理 |
 | [MOSAIC: Modular Obstacle and Spatial-Aware Framework for Manipulation In Cluttered Scenes](https://arxiv.org/abs/2611.15937) | 2026-11-11 | R2, R7, R11 | 华为 / University of Toronto / Simon Fraser University | 分类需复核 |
@@ -237,7 +249,7 @@
 | [HandMimicX: Learning Human-Like Dexterous Manipulation via an Object-Centric Policy from Egocentric Videos](https://arxiv.org/abs/2610.41336) | 2026-10-30 | R9, R6, R7 | 清华大学 / 香港中文大学 / 香港大学 / NVIDIA | 自动整理 |
 | [TRACE: Target-State Risk-Aligned Conditional Execution for Embodied Tracking](https://arxiv.org/abs/2610.41275) | 2026-10-30 |  | 中科院自动化所 / 中科院计算所 | 分类需复核 |
 | [FlowMoDE: Coarse-to-fine Flow Matching for Detail-aware Sim-to-Real Monocular Depth Estimation](https://arxiv.org/abs/2610.41190) | 2026-10-30 | R2, R7 | 香港中文大学 / 香港大学 / Liangjing Shao, Wanhao Liu and Hongliang Ren are also with Shenzhen Loop Area Institute. | 自动整理 |
-| [Mechanistic Interpretability for End-to-End Self-Driving](https://arxiv.org/abs/2610.41185) | 2026-10-30 |  | Department of Electrical & Computer Engineering, Purdue University / Department of Computer Science, Purdue University {mgagvani, bnamikas, svelmuru, kumar753 | 分类需复核 |
+| [Mechanistic Interpretability for End-to-End Self-Driving](https://arxiv.org/abs/2610.41185) | 2026-10-30 |  | Purdue University Purdue University Purdue University Purdue University Purdue University Purdue University Purdue University Purdue University Purdue University | 分类需复核 |
 | [CalVLA: Shaping Native Confidence in Vision-Language-Action Policies with Outcome Supervision](https://arxiv.org/abs/2611.00394) | 2026-10-30 | R1 | CMU | 自动整理 |
 | [From Concepts to Actual Causes: Toward Closing the Concept-Malfunction Gap in Robot Foundation Models](https://arxiv.org/abs/2611.00155) | 2026-10-30 |  | NC AI | 分类需复核 |
 | [Gym-Anything for Robotics: Scaling physical simulations with digital agents](https://arxiv.org/abs/2610.40565) | 2026-10-29 | R7, R11 | CMU | 分类需复核 |
