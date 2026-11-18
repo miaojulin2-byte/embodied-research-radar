@@ -6,17 +6,17 @@
 | [Fly as Instructed: Refining World-Action Policies for UAV Vision-Language Navigation](https://arxiv.org/abs/2611.22883) | 2026-11-17 | R4, R10 | 哈尔滨工业大学 / NUS | 自动整理 |
 | [Learning Agent-Centric Vision-Language-Action World Models for Autonomous Driving](https://arxiv.org/abs/2611.22880) | 2026-11-17 | R4, R6 | 上海交通大学 | 自动整理 |
 | [Outcome-Balanced PPO and Policy-Induced Flow Rectification for Flow-Based VLA Policies](https://arxiv.org/abs/2611.22878) | 2026-11-17 | R6 | 清华大学 / 香港科技大学 | 分类需复核 |
-| [RefCloth: Transferable Adversarial Tablecloths for Vision-Language-Action Models](https://arxiv.org/abs/2611.22736) | 2026-11-17 | R7 | 待核验 | 分类需复核 |
+| [RefCloth: Transferable Adversarial Tablecloths for Vision-Language-Action Models](https://arxiv.org/abs/2611.22736) | 2026-11-17 | R7 | 中科院自动化所 / 中科院计算所 / 中国科学院大学 | 分类需复核 |
 | [Practice in Text, Act in Pixels: Correcting Where Perception Fails](https://arxiv.org/abs/2611.22722) | 2026-11-17 | R7 | Code | 分类需复核 |
 | [VSpark: Speculative Decoding for Autoregressive Vision-Language-Action Models](https://arxiv.org/abs/2611.22666) | 2026-11-17 | R1 | KAIST / VGG, University of Oxford | 自动整理 |
 | [Distilling World Action Models for Efficient Bimanual Manipulation via Anchored Path Matching](https://arxiv.org/abs/2611.22592) | 2026-11-17 | R4 | 哈尔滨工业大学 / 香港科技大学 | 自动整理 |
 | [InteractVLA: Turning VLAs into Interactive Tools for Agentic Robotic Manipulation](https://arxiv.org/abs/2611.22584) | 2026-11-17 | R2, R6 | Key Laboratory of Data Engineering and KnowledgeEngineering, MOE, China / Renmin University of China, Beijing 100872, China | 分类需复核 |
 | [Plausible Videos Can Lead to Poor Decisions: Diagnosing and CURE-ing World Models for Planning](https://arxiv.org/abs/2611.22561) | 2026-11-17 | R4, R7 | Cornell University | 自动整理 |
 | [VoxelSBFL: Voxel-Level Spectrum-Based Failure Prediction for Vision-Language-Action Models](https://arxiv.org/abs/2611.22453) | 2026-11-17 | R11, R7 | Mondragon University , Mondragon , Guipuzcoa , Spain / Simula Research Laboratory , Oslo , Norway | 自动整理 |
-| [CoBoVLA: Decoupling Language from Action with Discrete Codes for Robust and Interpretable Robot Manipulation](https://arxiv.org/abs/2611.22395) | 2026-11-17 | R11 | 待核验 | 分类需复核 |
+| [CoBoVLA: Decoupling Language from Action with Discrete Codes for Robust and Interpretable Robot Manipulation](https://arxiv.org/abs/2611.22395) | 2026-11-17 | R11 | CMU / University of California San Diego | 分类需复核 |
 | [FailureGen: Scalable Robot Failure Data Generation with World Models](https://arxiv.org/abs/2611.22367) | 2026-11-17 | R4 | NVIDIA | 分类需复核 |
-| [SR-VLA: Stall-Reduced VLA Execution via Predicted-Input Lookahead and Selective KV Cache Repair](https://arxiv.org/abs/2611.22356) | 2026-11-17 |  | 待核验 | 分类需复核 |
-| [Similar Is Not Useful: Selecting In-Context Demonstrations by Closed-Loop Utility](https://arxiv.org/abs/2611.22295) | 2026-11-17 |  | 待核验 | 分类需复核 |
+| [SR-VLA: Stall-Reduced VLA Execution via Predicted-Input Lookahead and Selective KV Cache Repair](https://arxiv.org/abs/2611.22356) | 2026-11-17 |  | 北京大学 | 分类需复核 |
+| [Similar Is Not Useful: Selecting In-Context Demonstrations by Closed-Loop Utility](https://arxiv.org/abs/2611.22295) | 2026-11-17 |  | Georgia Tech / University of Texas at Austin / General Intelligent Machines, Inc | 分类需复核 |
 | [EgoHandWAM: Probing the Role of Hand Motion in Egocentric World Action Modeling](https://arxiv.org/abs/2611.22151) | 2026-11-17 | R4 | AI Lab, Country Garden Services Group / School of Mechanical Science and Engineering, Huazhong University of Science and Technology / Omni AI | 自动整理 |
 | [AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities](https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/) | 2026-11-16 |  | 待核验 | 分类需复核 |
 | [ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters](https://arxiv.org/abs/2611.21607) | 2026-11-16 |  | 银河通用 / 清华大学 / 北京大学 / 上海交通大学 | 分类需复核 |
