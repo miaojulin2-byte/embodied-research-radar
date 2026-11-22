@@ -1034,7 +1034,7 @@
 | [XGenAct: Geometry-Enhanced World Action Models through Cross-Task Generation](https://arxiv.org/abs/2610.03516) | 2026-10-02 | R4, R2 | University of Wisconsin–Madison / University of Maryland, College Park | 自动整理 |
 | [Detect and Suppress: A Mechanistic Defense against Adversarial Patches in VLA Models](https://arxiv.org/abs/2610.03498) | 2026-10-02 |  | Keio University / Waseda University / The University of Tokyo | 分类需复核 |
 | [MobiAgent: Dual-Loop Recursive Policy Self-Improvement for Long-Horizon Mobile Manipulation](https://arxiv.org/abs/2610.03476) | 2026-10-02 | R6, R10, R2, R3 | 香港大学 / Astribot / Southern University of Science and Technology | 自动整理 |
-| [Native Action-Prior Learning from Videos for World Action Models](https://arxiv.org/abs/2610.03391) | 2026-10-02 | R4, R2 | Physical Intelligence / Meta FAIR | 自动整理 |
+| [Native Action-Prior Learning from Videos for World Action Models](https://arxiv.org/abs/2610.03391) | 2026-10-02 | R4, R2 | Meta FAIR | 自动整理 |
 | [EVEWorld: Physical Evolution Supervision for Embodied World Models](https://arxiv.org/abs/2610.03374) | 2026-10-02 | R7 | NTU / China Merchants Group | 分类需复核 |
 | [Equivariant Visual-Tactile Diffusion Policy for Contact-Rich Manipulation](https://arxiv.org/abs/2610.03333) | 2026-10-02 | R2, R9, R7 | 香港中文大学 / 香港大学 | 自动整理 |
 | [Safe Streaming Flow Planning by Aligning Sampling Dynamics with Execution Dynamics](https://arxiv.org/abs/2610.03132) | 2026-10-02 | R3, R2, R10 | NTU / University of Washington / Singapore / University of California, Berkeley / KAIST | 自动整理 |
