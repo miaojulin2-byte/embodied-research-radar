@@ -3012,7 +3012,7 @@
 | [EvoScene-VLA: Evolving Scene Beliefs Inside the Action Decoder for Chunked Robot Control](https://arxiv.org/abs/2605.21862) | 2026-05-21 | R2 | 待核验 | 自动整理 |
 | [Action with Visual Primitives](https://arxiv.org/abs/2605.22183) | 2026-05-21 | R2 | 待核验 | 自动整理 |
 | [CrossVLA: Cross-Paradigm Post-Training and Inference Optimization for Vision-Language-Action Models](https://arxiv.org/abs/2605.21854) | 2026-05-21 | R1, R2 | Tianjin University | 分类需复核 |
-| [From Abstraction to Instantiation: Learning Behavioral Representation for Vision-Language-Action Model](https://arxiv.org/abs/2605.22671) | 2026-05-21 | R7 | 哈尔滨工业大学 | 分类需复核 |
+| [From Abstraction to Instantiation: Learning Behavioral Representation for Vision-Language-Action Model](https://arxiv.org/abs/2605.22671) | 2026-05-21 | R7 | 哈尔滨工业大学 / PengCheng Laboratory / Shenzhen Loop Area Institute / Shanghai University of Finance and Economics / Sun Yat-sen University | 分类需复核 |
 | [STATERA: Hidden Mass Estimation via Zero-Shot Sim-to-Real Kinematics using Frozen Temporal Tubelets](https://arxiv.org/abs/2610.00003) | 2026-05-21 | R7, R11 | 待核验 | 自动整理 |
 | [GesVLA: Gesture-Aware Vision-Language-Action Model Embedded Representations](https://arxiv.org/abs/2605.22812) | 2026-05-21 | R7 | 清华大学 / Dexmal | 分类需复核 |
 | [Spreadsheet-RL: Advancing Large Language Model Agents on Realistic Spreadsheet Tasks via Reinforcement Learning](https://arxiv.org/abs/2605.22642) | 2026-05-21 | R6, R7, R11 | University of Illinois Urbana-Champaign / Meta | 自动整理 |
