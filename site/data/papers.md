@@ -3246,7 +3246,7 @@
 | [PRTS: A Primitive Reasoning and Tasking System via Contrastive Representations](https://arxiv.org/abs/2604.27472) | 2026-04-30 | R6, R5 | 清华大学 / 上海交通大学 / 复旦大学 / Institute of Artificial Intelligence (TeleAI), China Telecom | 自动整理 |
 | [DOT-Sim: Differentiable Optical Tactile Simulation with Precise Real-to-Sim Physical Calibration](https://arxiv.org/abs/2604.27367) | 2026-04-30 | R9, R7 | Stanford | 自动整理 |
 | [Judge, Then Drive: A Critic-Centric Vision Language Action Framework for Autonomous Driving](https://arxiv.org/abs/2604.27366) | 2026-04-30 | R7, R11 | Bosch Research | 分类需复核 |
-| [3D Generation for Embodied AI and Robotic Simulation: A Survey](https://arxiv.org/abs/2604.26509) | 2026-04-29 | R7 | 哈尔滨工业大学 / 香港科技大学 / 腾讯 | 自动整理 |
+| [3D Generation for Embodied AI and Robotic Simulation: A Survey](https://arxiv.org/abs/2604.26509) | 2026-04-29 | R7 | 哈尔滨工业大学 / 香港科技大学 | 自动整理 |
 | [Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising](https://arxiv.org/abs/2604.26694) | 2026-04-29 | R4, R2 | 清华大学 / 北京大学 / Xiaomi Robotics / CASIA | 自动整理 |
 | [STARRY: Spatial-Temporal Action-Centric World Modeling for Robotic Manipulation](https://arxiv.org/abs/2604.26848) | 2026-04-29 | R2 | 中国科学技术大学 / 哈尔滨工业大学 / Beijing Institute of Technology / Zhongguancun Academy / Zhongguancun Institute of Artificial Intelligence / East China Normal University / DeepCybo | 自动整理 |
 | [Walk With Me: Long-Horizon Social Navigation for Human-Centric Outdoor Assistance](https://arxiv.org/abs/2604.26839) | 2026-04-29 | R10 | 清华大学 / 复旦大学 / 中科院自动化所 / 中科院计算所 | 自动整理 |
