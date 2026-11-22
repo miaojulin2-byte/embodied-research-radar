@@ -2294,7 +2294,7 @@
 | [TactiDex: A Real-World Tactile-Guided Benchmark for Human-Like Dexterous Manipulation](https://arxiv.org/abs/2607.09190) | 2026-07-10 | R9, R11, R7 | 待核验 | 自动整理 |
 | [TS-Mask VLA: 2D Temporal-Spatial Masking for Vision-Language-Action Model with Effective Bridging](https://arxiv.org/abs/2607.09818) | 2026-07-10 | R2, R1, R7 | 浙江大学 / Hang Yu is with Tongji University, Shanghai, China. | 自动整理 |
 | [Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents](https://arxiv.org/abs/2607.08448) | 2026-07-09 | R10 | 清华大学 / 中科院自动化所 / 中科院计算所 / 香港科技大学 | 分类需复核 |
-| [Prompt-Driven Exploration: Language as an Exploration Space for VLA Reinforcement Learning](https://arxiv.org/abs/2607.08837) | 2026-07-09 | R6 | MIT | 自动整理 |
+| [Prompt-Driven Exploration: Language as an Exploration Space for VLA Reinforcement Learning](https://arxiv.org/abs/2607.08837) | 2026-07-09 | R6 | 1 MIT 2 MIT-IBM Computing Research Lab 3 Improbable AI Lab | 自动整理 |
 | [EVIS: Real-Time Event Camera Simulation with Multimodal Supervision in NVIDIA Isaac Sim](https://arxiv.org/abs/2607.08098) | 2026-07-09 | R7 | Johns Hopkins University | 自动整理 |
 | [TFP: Temporally Conditioned Memory-Fusion Policies for Visuomotor Learning](https://arxiv.org/abs/2607.08283) | 2026-07-09 | R1, R2 | 电子科技大学 | 分类需复核 |
 | [FabriVLA: A Lightweight Vision-Language-Action Model with Conformal Action Chunk Uncertainty](https://arxiv.org/abs/2607.08575) | 2026-07-09 | R2 | 待核验 | 自动整理 |
