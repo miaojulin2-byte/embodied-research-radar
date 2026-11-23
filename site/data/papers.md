@@ -1,24 +1,24 @@
 | 名称 | 日期 | 路线 | 机构 | 状态 |
 |---|---|---|---|---|
 | [Efficient VLA Reinforcement Learning via Subchunk Rollouts in Latent World Models](https://arxiv.org/abs/2611.27645) | 2026-11-20 | R6, R3, R4, R1 | National Key Laboratory for Novel Software Technology &School of Artificial Intelligence, Nanjing University, China / Corresponding | 自动整理 |
-| [Beyond a Single Human Demonstration: Learning from Scored Trajectory Alternatives for End-to-End Driving](https://arxiv.org/abs/2611.27515) | 2026-11-20 | R1 | 待核验 | 分类需复核 |
-| [Ego2Ego: Generative Visual Perspective Taking Across Collaborators](https://arxiv.org/abs/2611.27459) | 2026-11-20 | R2, R4, R7 | 待核验 | 分类需复核 |
-| [GenPA: Image Generators as Efficient Robot Policies](https://arxiv.org/abs/2611.27446) | 2026-11-20 | R7 | 待核验 | 分类需复核 |
+| [Beyond a Single Human Demonstration: Learning from Scored Trajectory Alternatives for End-to-End Driving](https://arxiv.org/abs/2611.27515) | 2026-11-20 | R1 | 北京大学 | 分类需复核 |
+| [Ego2Ego: Generative Visual Perspective Taking Across Collaborators](https://arxiv.org/abs/2611.27459) | 2026-11-20 | R2, R4, R7 | Toyota Research Institute / University of Stuttgart | 分类需复核 |
+| [GenPA: Image Generators as Efficient Robot Policies](https://arxiv.org/abs/2611.27446) | 2026-11-20 | R7 | 清华大学 / 复旦大学 | 分类需复核 |
 | [Beyond Linear Decodability: Understanding and Improving Instruction Following in World Action Models](https://arxiv.org/abs/2611.27401) | 2026-11-20 | R4 | 复旦大学 / Renmin University of China | 自动整理 |
 | [ReActWAM: Action-Consistent Caching for Efficient World-Action Models](https://arxiv.org/abs/2611.27372) | 2026-11-20 | R4 | 香港大学 / The University of Sydney | 自动整理 |
-| [Trailblazer-F: Speculative Action-Flow Inference for Autonomous Driving](https://arxiv.org/abs/2611.27226) | 2026-11-20 | R4 | 待核验 | 分类需复核 |
+| [Trailblazer-F: Speculative Action-Flow Inference for Autonomous Driving](https://arxiv.org/abs/2611.27226) | 2026-11-20 | R4 | 香港大学 / Mohamed bin Zayed University of Artificial Intelligence | 分类需复核 |
 | [LiDAR Signals for Robot Locomotion: Spherical Range Images Enable Robust Sim-to-Real Transfer](https://arxiv.org/abs/2611.27223) | 2026-11-20 | R7 | 待核验 | 自动整理 |
 | [SCAP: Stochastic Context for Action Expert Pretraining](https://arxiv.org/abs/2611.27187) | 2026-11-20 | R2 | 北京大学 / 复旦大学 / Tongji University / JD Future Academy | 自动整理 |
-| [Tripwire: Robot Agents that Program Their Own Interrupts under Human Disturbance](https://arxiv.org/abs/2611.27182) | 2026-11-20 | R4, R11 | 待核验 | 分类需复核 |
+| [Tripwire: Robot Agents that Program Their Own Interrupts under Human Disturbance](https://arxiv.org/abs/2611.27182) | 2026-11-20 | R4, R11 | University of Massachusetts at Amherst / University of Minnesota - Twin Cities | 分类需复核 |
 | [HumanoidPose: Monocular 3D Pose Estimation for Humanoid Robots](https://arxiv.org/abs/2611.27181) | 2026-11-20 | R8, R11, R7 | Xiamen University / Cleveland Clinic Lerner Research Institute / ShanghaiTech University | 自动整理 |
-| [Learning from Incomplete Actions: Interval Motion Supervision for Vision-Language-Action Policies](https://arxiv.org/abs/2611.27171) | 2026-11-20 | R2 | 待核验 | 分类需复核 |
+| [Learning from Incomplete Actions: Interval Motion Supervision for Vision-Language-Action Policies](https://arxiv.org/abs/2611.27171) | 2026-11-20 | R2 | Beijing Institute of Technology | 分类需复核 |
 | [EgoSurgHands: An Egocentric 3D Hand Pose Dataset & Benchmark for Open Surgery Training](https://arxiv.org/abs/2611.27101) | 2026-11-20 | R7, R11 | 待核验 | 自动整理 |
 | [BeyondEgo: Learning to Act Beyond Egocentric Perception via Humanoid Ego-Exo Foresight](https://arxiv.org/abs/2611.27047) | 2026-11-20 | R8, R2, R11 | 香港中文大学 / 香港大学 / Tongji University Yingwang Intelligent Technology Université de Montréal | 自动整理 |
 | [RoboColiseum: Co-evolution of Simulation, Evaluation, and Models](https://arxiv.org/abs/2611.27042) | 2026-11-20 | R7, R5, R8, R9 | 待核验 | 自动整理 |
 | [FoRe: A Force-Guided Framework for Autonomous Grasp Recovery in Vision-Language-Action Models](https://arxiv.org/abs/2611.27011) | 2026-11-20 | R6, R7, R11 | 待核验 | 分类需复核 |
 | [ViewDreamer: A Robot World Model beyond Fixed Camera Setups](https://arxiv.org/abs/2611.26981) | 2026-11-20 | R4 | Meta FAIR / Imperial College London | 自动整理 |
 | [RoboDyna: A Benchmark for Evaluating Robotic Manipulation under Physically Grounded Dynamics](https://arxiv.org/abs/2611.26969) | 2026-11-20 | R11, R4 | 华为 / University of Toronto. | 自动整理 |
-| [Analysis of Multi-Client Inference Techniques for Vision-Language-Action Models](https://arxiv.org/abs/2611.26944) | 2026-11-20 |  | 待核验 | 分类需复核 |
+| [Analysis of Multi-Client Inference Techniques for Vision-Language-Action Models](https://arxiv.org/abs/2611.26944) | 2026-11-20 |  | University of Toronto | 分类需复核 |
 | [RoboCap-10k: A Metrically Accurate Egocentric Dataset for Robot Learning](https://arxiv.org/abs/2611.26916) | 2026-11-20 | R7 | 待核验 | 自动整理 |
 | [PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation](https://arxiv.org/abs/2611.26596) | 2026-11-19 | R8, R10 | 1 Oxford Robotics Institute, University of Oxford 2 Department of Computer Science, University of Oxford | 自动整理 |
 | [PhyDEX: A Benchmark for Physical Reasoning in Vision-Language-Action Models via Dynamic Extrinsic Dexterity](https://arxiv.org/abs/2611.26565) | 2026-11-19 | R11, R8 | AICV Lab, University of Arkansas, USA / Center for AI Research, VinUniversity, Vietnam / University of Stuttgart, Germany / Max Planck Research School for Intelligent Systems, Germany | 自动整理 |
