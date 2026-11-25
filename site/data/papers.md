@@ -3,38 +3,38 @@
 | [PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents](https://arxiv.org/abs/2611.33144) | 2026-11-24 | R9, R7 | 北京大学 / NVIDIA / NUS | 自动整理 |
 | [iWAM: Efficient Action Prediction from World Models without Explicit Future Prediction](https://arxiv.org/abs/2611.33141) | 2026-11-24 | R4, R2 | CMU | 自动整理 |
 | [Physicl Scenes: An Artist-created 3D Dataset for Learning Perception and Action](https://arxiv.org/abs/2611.33137) | 2026-11-24 | R7, R10, R11 | Technical University of Munich | 自动整理 |
-| [EmbodiSafety: Benchmarking Risk Understanding and Response in Embodied AI](https://arxiv.org/abs/2611.33054) | 2026-11-24 |  | 待核验 | 分类需复核 |
-| [Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies](https://arxiv.org/abs/2611.33010) | 2026-11-24 | R11, R4 | 待核验 | 分类需复核 |
-| [HARI4D: Hand-Articulation Aware 4D Reconstruction of Human-Object Interaction](https://arxiv.org/abs/2611.32932) | 2026-11-24 |  | 待核验 | 分类需复核 |
-| [What Does a Skill Vocabulary Cost? A Closed-Loop Decomposition over Demonstrated Motions](https://arxiv.org/abs/2611.32858) | 2026-11-24 | R11 | 待核验 | 分类需复核 |
+| [EmbodiSafety: Benchmarking Risk Understanding and Response in Embodied AI](https://arxiv.org/abs/2611.33054) | 2026-11-24 |  | 香港科技大学 / 香港大学 | 分类需复核 |
+| [Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies](https://arxiv.org/abs/2611.33010) | 2026-11-24 | R11, R4 | 北京大学 | 分类需复核 |
+| [HARI4D: Hand-Articulation Aware 4D Reconstruction of Human-Object Interaction](https://arxiv.org/abs/2611.32932) | 2026-11-24 |  | 1 Yonsei University, South Korea 2 University of Tübingen, Germany 3 Tübingen AI Center, Germany 4 Max Planck Institute for Informatics, Saarland Informatics Campus, Germany | 分类需复核 |
+| [What Does a Skill Vocabulary Cost? A Closed-Loop Decomposition over Demonstrated Motions](https://arxiv.org/abs/2611.32858) | 2026-11-24 | R11 | 1 Intuitive Robots Lab, Karlsruhe Institute of Technology (KIT) 2 Robotics Institute Germany (RIG) | 分类需复核 |
 | [Keypose or Dense? A Controlled Comparison of Action Representations for Stage-Structured Manipulation](https://arxiv.org/abs/2611.32788) | 2026-11-24 | R7 | 待核验 | 分类需复核 |
 | [AG-WAM: Attention-Guided World Action Model for Accurate and Efficient Robot Manipulation](https://arxiv.org/abs/2611.32722) | 2026-11-24 | R4 | SenseTime Research | 自动整理 |
-| [Knocked Off Course: Tracing Uncommanded Motion from Perception to Action in Embodied VLAs](https://arxiv.org/abs/2611.32705) | 2026-11-24 |  | 待核验 | 分类需复核 |
+| [Knocked Off Course: Tracing Uncommanded Motion from Perception to Action in Embodied VLAs](https://arxiv.org/abs/2611.32705) | 2026-11-24 |  | Ben-Gurion University of the Negev | 分类需复核 |
 | [DiffGR00T: Execution-Aware Differentiable Training for Humanoid Whole-Body Vision-Language-Action Models](https://arxiv.org/abs/2611.32665) | 2026-11-24 | R8, R2, R3, R4, R7 | 上海交通大学 | 自动整理 |
 | [DexWAC: A Unified World-Actor-Critic Model for Dexterous Robot Manipulation](https://arxiv.org/abs/2611.32654) | 2026-11-24 | R4, R9, R7 | 银河通用 / 清华大学 / 北京大学 / University of California, San Diego École Polytechnique Fédérale de Lausanne (EPFL), Switzerland | 自动整理 |
 | [ReFocus: Progress-Guided Adaptive Practice for Long-Horizon Robotic Manipulation Reinforcement Learning](https://arxiv.org/abs/2611.32639) | 2026-11-24 | R6 | 浙江大学 / 香港大学 | 自动整理 |
 | [MXI-MemICL: Towards In-Context Robot Manipulation through Self-Retrieved Interaction Memory](https://arxiv.org/abs/2611.32564) | 2026-11-24 |  | 待核验 | 分类需复核 |
-| [AirLeg: A Robust and Accurate Self-Supervised Visual-Inertial-Leg SLAM System](https://arxiv.org/abs/2611.32523) | 2026-11-24 | R7 | 待核验 | 分类需复核 |
+| [AirLeg: A Robust and Accurate Self-Supervised Visual-Inertial-Leg SLAM System](https://arxiv.org/abs/2611.32523) | 2026-11-24 | R7 | NTU / Ruofei Bai is also with the A*STAR Institute of Advanced Intelligence and Computing (A*STAR IAIC), Singapore, . / Yuefan Hao, Zitong Zhan, and Chen Wang are with the Spatial AI & Robotics Lab, Department of Computer Science and Engineering, University at Buffalo, Buffalo, NY 14260, USA, , {zitongz, chenw}@sairlab.org . | 分类需复核 |
 | [DiffAnchor: Anchor-Space Diffusion for Monocular 3D Hand Pose Estimation](https://arxiv.org/abs/2611.32513) | 2026-11-24 | R2, R9 | 1 National Key Laboratory of Multispectral Information Intelligent Processing Technology, School of Artificial Intelligence and Automation, Huazhong University of Science and Technology, Wuhan, 430074, China. / 2 School of Journalism and Information Communication, Huazhong University of Science and Technology, Wuhan, 430074, China. / 3 School of Robotics, Guangdong Polytechnic of Science and Technology, Zhuhai, 519090, China. / 4 Wuhan · HGCyber Data System Co., Ltd., Wuhan, China. / 5 School of Artificial Intelligence and Automation, Huazhong University of Science and Technology, Wuhan, 430074, China. | 自动整理 |
-| [GeoVLDrive: Geometry-Grounded Vision-Language Reasoning for Autonomous Driving](https://arxiv.org/abs/2611.32510) | 2026-11-24 | R2 | 待核验 | 分类需复核 |
+| [GeoVLDrive: Geometry-Grounded Vision-Language Reasoning for Autonomous Driving](https://arxiv.org/abs/2611.32510) | 2026-11-24 | R2 | NTU / University of Missouri | 分类需复核 |
 | [CodeWAM: A Code World Action Model for End-to-End Autonomous Driving](https://arxiv.org/abs/2611.32483) | 2026-11-24 | R4 | 清华大学 / 复旦大学 / 中国科学技术大学 / NTU | 自动整理 |
-| [Any2Act: Scaling In-Context Robot Learning from Heterogeneous Demonstrations](https://arxiv.org/abs/2611.32353) | 2026-11-24 | R7 | 待核验 | 分类需复核 |
-| [Sparse Poison, Strong Hijack: Efficient Trajectory-Level Backdoors in Vision-Language-Action Models with Only 1\% Poisoning](https://arxiv.org/abs/2611.32304) | 2026-11-24 | R1 | 待核验 | 分类需复核 |
+| [Any2Act: Scaling In-Context Robot Learning from Heterogeneous Demonstrations](https://arxiv.org/abs/2611.32353) | 2026-11-24 | R7 | 银河通用 / 清华大学 / 北京大学 / 香港大学 | 分类需复核 |
+| [Sparse Poison, Strong Hijack: Efficient Trajectory-Level Backdoors in Vision-Language-Action Models with Only 1\% Poisoning](https://arxiv.org/abs/2611.32304) | 2026-11-24 | R1 | 清华大学 / 香港科技大学 / East China Normal University Zhongguancun Academy | 分类需复核 |
 | [EgoLoAF: Learning Humanoid Loco-Manipulation from Egocentric Demonstrations with Hand-Object Affordances](https://arxiv.org/abs/2611.32260) | 2026-11-24 | R8, R2, R7 | 香港科技大学 | 自动整理 |
 | [VLAs Execute, Code Recovers: 3D Skill Envelopes Bridge the Compositional Gap in Agentic Manipulation](https://arxiv.org/abs/2611.32245) | 2026-11-24 |  | 待核验 | 分类需复核 |
-| [Motion Chain of Thought: Disentangling Motion Semantics from Visual Appearance for Robotic Manipulation](https://arxiv.org/abs/2611.32241) | 2026-11-24 | R4 | 待核验 | 分类需复核 |
+| [Motion Chain of Thought: Disentangling Motion Semantics from Visual Appearance for Robotic Manipulation](https://arxiv.org/abs/2611.32241) | 2026-11-24 | R4 | 清华大学 / 香港中文大学 / 香港科技大学 / 香港大学 / Joy Future Academy, JD | 分类需复核 |
 | [Roboclock: A Unified Benchmark for Time-Aware Robotic Intelligence](https://arxiv.org/abs/2611.32233) | 2026-11-24 | R11 | University of California, San Diego | 自动整理 |
-| [NativeDrive: Native Multimodal Foundations for Autonomous Driving](https://arxiv.org/abs/2611.32216) | 2026-11-24 | R4 | 待核验 | 分类需复核 |
+| [NativeDrive: Native Multimodal Foundations for Autonomous Driving](https://arxiv.org/abs/2611.32216) | 2026-11-24 | R4 | 清华大学 / 上海交通大学 / 浙江大学 | 分类需复核 |
 | [Seeing Is Not Reaching: Instruction Shortcuts Override Visual Grounding in Vision-Language-Action Models](https://arxiv.org/abs/2611.32206) | 2026-11-24 |  | 待核验 | 分类需复核 |
 | [Ego2Real: Learning Bimanual Dexterous Manipulation from Egocentric Visuo-Tactile Demonstrations](https://arxiv.org/abs/2611.32101) | 2026-11-24 | R9, R6 | 浙江大学 / 香港科技大学 | 自动整理 |
-| [ActiveBridge: Scaling Active Prior for Robots through Egocentric Perception-Interaction Modeling](https://arxiv.org/abs/2611.32098) | 2026-11-24 | R4 | 待核验 | 自动整理 |
-| [KeyMemVLA: Subtask-Guided Key Memory for Long-Horizon Robotic Manipulation](https://arxiv.org/abs/2611.32081) | 2026-11-24 |  | 待核验 | 分类需复核 |
+| [ActiveBridge: Scaling Active Prior for Robots through Egocentric Perception-Interaction Modeling](https://arxiv.org/abs/2611.32098) | 2026-11-24 | R4 | 上海交通大学 / 复旦大学 | 自动整理 |
+| [KeyMemVLA: Subtask-Guided Key Memory for Long-Horizon Robotic Manipulation](https://arxiv.org/abs/2611.32081) | 2026-11-24 |  | 中科院自动化所 / 中科院计算所 / 中国科学院大学 / Beihang University Zhongguancun Academy Nanjing University / Tianjin University Fujian Key Laboratory of Financial Information Processing, Putian University | 分类需复核 |
 | [EffectWAM: Learning Action-Grounded Effects for Robot Manipulation](https://arxiv.org/abs/2611.32053) | 2026-11-24 | R2, R4 | 待核验 | 分类需复核 |
 | [RoboHarness-RL: Agentic Reinforcement Learning for VLM-Based Robot Manipulation](https://arxiv.org/abs/2611.32016) | 2026-11-24 | R6, R3, R4 | 浙江大学 | 自动整理 |
-| [Perception Is Enough, at the Right Scale: Scale-Adaptive Token Pruning for Vision-Language-Action Models](https://arxiv.org/abs/2611.31954) | 2026-11-24 | R7 | 待核验 | 分类需复核 |
-| [Beyond Expert Replay: Cross-Instruction Anchoring for Continual Vision-Language-Action Learning](https://arxiv.org/abs/2611.31903) | 2026-11-24 |  | 待核验 | 分类需复核 |
+| [Perception Is Enough, at the Right Scale: Scale-Adaptive Token Pruning for Vision-Language-Action Models](https://arxiv.org/abs/2611.31954) | 2026-11-24 | R7 | 中国科学技术大学 | 分类需复核 |
+| [Beyond Expert Replay: Cross-Instruction Anchoring for Continual Vision-Language-Action Learning](https://arxiv.org/abs/2611.31903) | 2026-11-24 |  | 复旦大学 / 香港科技大学 / New York University Abu Dhabi | 分类需复核 |
 | [PreWAM: Exploring the Design of Latent Future Prediction for World-Action Modeling](https://arxiv.org/abs/2611.31901) | 2026-11-24 | R4, R11 | 清华大学 / Tongji University Rimbot / Xi’an University of Electronic Science and Technology | 自动整理 |
-| [Two-Stage Post-Training for Flow-Based Embodied Foundation Models](https://arxiv.org/abs/2611.31850) | 2026-11-24 | R2, R6 | 待核验 | 自动整理 |
+| [Two-Stage Post-Training for Flow-Based Embodied Foundation Models](https://arxiv.org/abs/2611.31850) | 2026-11-24 | R2, R6 | 清华大学 | 自动整理 |
 | [G0.7: Scaling Up a Fast World Action Model with Long Context](https://arxiv.org/abs/2611.31822) | 2026-11-24 | R4, R7, R11 | 星海图 Galaxea | 自动整理 |
 | [Many Senses, One World: Learning Hierarchical Multimodal World Representations for Bimanual Dexterous Manipulation](https://arxiv.org/abs/2611.31782) | 2026-11-24 | R9, R3, R4, R7 | National Key Laboratory of Human-Machine Hybrid Augmented Intelligence / Institute of Artificial Intelligence and Robotics, Xi’an Jiaotong University | 自动整理 |
 | [LeanWAM: Learning Latent World Action Models from Frozen Video Models](https://arxiv.org/abs/2611.31740) | 2026-11-24 | R4 | University of Michigan | 自动整理 |
@@ -81,11 +81,11 @@
 | [ProMix: Efficient Data Mixture Optimization for Robotic Imitation via Proxy-Reference DRO](https://arxiv.org/abs/2611.29873) | 2026-11-23 | R7 | 香港科技大学 | 分类需复核 |
 | [FoveaWAM: Role-Aware 4D World-Action Modeling for Dynamic Manipulation](https://arxiv.org/abs/2611.31705) | 2026-11-23 | R4, R11 | BAAI / 北京大学 | 自动整理 |
 | [One Phase Is Enough: Sim-to-Real Transfer with Direct Visual Reinforcement Learning](https://arxiv.org/abs/2611.31588) | 2026-11-23 | R7, R6 | MIT | 自动整理 |
-| [FabricBench: A Standardized Policy Benchmark for Bimanual Fabric Manipulation with a Contact-Driven Deformable Simulator](https://arxiv.org/abs/2611.31577) | 2026-11-23 | R11, R4 | 待核验 | 自动整理 |
-| [Hi3R-VLA: Grounding Semantics and Actions in 3D](https://arxiv.org/abs/2611.31535) | 2026-11-23 | R9, R7 | 待核验 | 分类需复核 |
-| [Near-Zero Forgetting Is Not Enough: Out-of-Distribution Robustness in Continual Learning of Pretrained VLAs](https://arxiv.org/abs/2611.31511) | 2026-11-23 |  | 待核验 | 分类需复核 |
-| [Embodied Neuro-symbolic AI: Making Robot Behavior Auditable, Safe, and Scalable](https://arxiv.org/abs/2611.31488) | 2026-11-23 |  | 待核验 | 分类需复核 |
-| [Ground, Guide, Act: Improving VLA Spatial Generalization with Multimodal Foundation Models](https://arxiv.org/abs/2611.31452) | 2026-11-23 | R5 | 待核验 | 分类需复核 |
+| [FabricBench: A Standardized Policy Benchmark for Bimanual Fabric Manipulation with a Contact-Driven Deformable Simulator](https://arxiv.org/abs/2611.31577) | 2026-11-23 | R11, R4 | 上海交通大学 / Horizon Robotics / Style3D Research * These authors contributed equally. | 自动整理 |
+| [Hi3R-VLA: Grounding Semantics and Actions in 3D](https://arxiv.org/abs/2611.31535) | 2026-11-23 | R9, R7 | Inria, École normale supérieure, CNRS, PSL Research University | 分类需复核 |
+| [Near-Zero Forgetting Is Not Enough: Out-of-Distribution Robustness in Continual Learning of Pretrained VLAs](https://arxiv.org/abs/2611.31511) | 2026-11-23 |  | IDEAS Research Institute | 分类需复核 |
+| [Embodied Neuro-symbolic AI: Making Robot Behavior Auditable, Safe, and Scalable](https://arxiv.org/abs/2611.31488) | 2026-11-23 |  | CMU | 分类需复核 |
+| [Ground, Guide, Act: Improving VLA Spatial Generalization with Multimodal Foundation Models](https://arxiv.org/abs/2611.31452) | 2026-11-23 | R5 | 中国科学技术大学 | 分类需复核 |
 | [Hierarchical Reasoning Action Head for Tiny Vision-Language-Action Models](https://arxiv.org/abs/2611.29813) | 2026-11-22 | R3 | Department of Computer Science, University of Alabama at Birmingham | 自动整理 |
 | [JKO-GRPO: Augmenting GRPO with Wasserstein Proximal Steps for Flow-Matching VLAs](https://arxiv.org/abs/2611.29646) | 2026-11-22 | R2, R6 | School of Mechanical Engineering Department of MathematicsPurdue University, West Lafayette, IN 47907, USA | 自动整理 |
 | [Detecting Is Not Choosing: What a World Model Needs to Keep a VLA Policy Safe](https://arxiv.org/abs/2611.29553) | 2026-11-22 | R4, R11, R7 | 待核验 | 自动整理 |
